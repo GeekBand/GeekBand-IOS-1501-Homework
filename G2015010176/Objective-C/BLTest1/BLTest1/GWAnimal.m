@@ -10,7 +10,7 @@
 
 @implementation GWAnimal
 
-- (instancetype)initWithName:(NSString *)name gender:(enum Gender)gender weight:(NSUInteger)weight {
+- (instancetype)initWithName:(NSString *)name gender:(Gender)gender weight:(NSUInteger)weight {
    
     self = [super init];
     

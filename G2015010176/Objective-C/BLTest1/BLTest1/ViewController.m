@@ -20,7 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // No.3
+    
+    // MARK: No.3
     NSMutableArray *animal = [[NSMutableArray alloc] init];
     for (int i = 0; i < 10; i++) {
         NSArray *birdNames = @[@"Parrot", @"Pelican", @"Raptor", @"Ural", @"Owls", @"BABY BLUE", @"AIDEN", @"BB", @"DAVE", @"CHILI"];
@@ -28,7 +29,7 @@
         randomGWBird.color = [UIColor whiteColor];
         [animal addObject:randomGWBird];
         
-        
+        // TODO: Set a NSArray to init randomGWFish.
         GWFish *randomGWFish = [[GWFish alloc] initWithName:@"Fish" gender:(Gender)(arc4random() % 2) weight:(NSUInteger)(arc4random() % 100)];
         randomGWFish.color = [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1.0];
         [animal addObject:randomGWFish];
@@ -44,7 +45,8 @@
     }
     
     
-    // No.4
+    
+    // MARK: No.4
     int fishCount = 0;
     int birdCount = 0;
     NSUInteger randomRemoveNumber = (NSUInteger)(arc4random() % 20);
@@ -58,7 +60,7 @@
             fishCount++;
         }
     }
-    
+    // FIXME: Print a more readable result.
     NSLog(@"fishCount:%d, birdCount:%d, randomRemoveNumber:%lu, [animal count]:%lu", fishCount, birdCount, (unsigned long)randomRemoveNumber, (unsigned long)[animal count]);
 }
          
