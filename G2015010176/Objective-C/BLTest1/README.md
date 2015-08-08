@@ -24,3 +24,4 @@
     :returns: A new animal who has name, gender and weight.
 */
 ```
+More in [Swift Documentation](http://nshipster.cn/swift-documentation/)
