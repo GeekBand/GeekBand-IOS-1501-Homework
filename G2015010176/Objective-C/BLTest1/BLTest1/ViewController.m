@@ -33,20 +33,6 @@
         randomGWFish.color = [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1.0];
         [animal addObject:randomGWFish];
 
-        
-        // wrong instance methods
-//        GWBird *randomGWBird = [[GWBird alloc] init];
-//        NSArray *birdNames = @[@"Parrot", @"Pelican", @"Raptor", @"Ural", @"Owls", @"BABY BLUE", @"AIDEN", @"BB", @"DAVE", @"CHILI"];
-//        [randomGWBird initAnimal:randomGWBird withName:birdNames[i] withGender:(Gender)(arc4random() % 2) withWeight:(NSUInteger)(arc4random() % 100)];
-//        [randomGWBird init:randomGWBird withColor:[UIColor whiteColor]];
-//        [animal addObject:randomGWBird];
-//        
-//        
-//        GWFish *randomGWFish = [[GWFish alloc] init];
-//        [randomGWFish initAnimal:randomGWFish withName:@"Fish" withGender:(Gender)(arc4random() % 2) withWeight:(NSUInteger)(arc4random() % 100)];
-//        [randomGWFish init:randomGWFish withColor:[UIColor whiteColor]];
-//        [animal addObject:randomGWFish];
-
     }
     
     for (int i = 0; i < [animal count]; i++) {

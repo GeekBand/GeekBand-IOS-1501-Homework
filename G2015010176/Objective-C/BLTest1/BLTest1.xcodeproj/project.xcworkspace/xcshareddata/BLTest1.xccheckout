@@ -10,31 +10,31 @@
 	<string>BLTest1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</key>
-		<string>https://github.com/gewill/GeekBand-iOS-Demo.git</string>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>https://github.com/GeekBand/GeekBand-IOS-1501-Homework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Test/BLTest1/BLTest1.xcodeproj</string>
+	<string>G2015010176/Objective-C/BLTest1/BLTest1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</key>
-		<string>../../../..</string>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/gewill/GeekBand-iOS-Demo.git</string>
+	<string>https://github.com/GeekBand/GeekBand-IOS-1501-Homework.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</string>
+	<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BD306323F750F6C6CED71BCF19FF4DA4F5072E71</string>
+			<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
 			<key>IDESourceControlWCCName</key>
-			<string>GeekBand-iOS-Demo</string>
+			<string>GeekBand-IOS-1501-Homework</string>
 		</dict>
 	</array>
 </dict>
