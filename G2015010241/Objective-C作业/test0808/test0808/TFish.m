@@ -22,4 +22,10 @@
     NSLog(@"我是%@，我在水中游来游去...", [self name]);
 }
 
+#pragma mark - TAnimal methods
+
+- (void)yelp {
+    NSLog(@"小鱼只会吐泡泡");
+}
+
 @end

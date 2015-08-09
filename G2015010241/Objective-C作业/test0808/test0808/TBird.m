@@ -22,4 +22,10 @@
     NSLog(@"我是%@，我在天空中自由翱翔...", [self name]);
 }
 
+#pragma mark - TAnimal methods
+
+- (void)yelp {
+    NSLog(@"小鸟在叽叽叫");
+}
+
 @end

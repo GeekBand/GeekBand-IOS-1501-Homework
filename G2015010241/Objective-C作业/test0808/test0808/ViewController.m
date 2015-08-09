@@ -2,7 +2,7 @@
 //  ViewController.m
 //  test0808
 //
-//  Created by snddfhv on 15/8/9.
+//  Created by snddfhv on 15/8/10.
 //  Copyright © 2015年 snddfhv. All rights reserved.
 //
 
@@ -51,7 +51,6 @@
             [fish swim];
         }
     }
-    
     
     __block NSInteger shootBirdCount = 0; // 打的小鸟数目
     __block NSInteger catchFishCount = 0; // 捕的小鱼数目
