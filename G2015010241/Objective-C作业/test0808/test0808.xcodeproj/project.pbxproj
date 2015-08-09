@@ -13,9 +13,9 @@
 		25460A721B779D5D0048B722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25460A701B779D5D0048B722 /* Main.storyboard */; };
 		25460A741B779D5D0048B722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25460A731B779D5D0048B722 /* Assets.xcassets */; };
 		25460A771B779D5D0048B722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25460A751B779D5D0048B722 /* LaunchScreen.storyboard */; };
-		25460A801B77A2E10048B722 /* TAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460A7F1B77A2E10048B722 /* TAnimal.m */; };
-		25460A831B77A3360048B722 /* TBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460A821B77A3360048B722 /* TBird.m */; };
-		25460A861B77A70B0048B722 /* TFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460A851B77A70B0048B722 /* TFish.m */; };
+		25460A9C1B77C6910048B722 /* TAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460A9B1B77C6910048B722 /* TAnimal.m */; };
+		25460AB51B77C72B0048B722 /* TBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460AB41B77C72B0048B722 /* TBird.m */; };
+		25460AB81B77C73B0048B722 /* TFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 25460AB71B77C73B0048B722 /* TFish.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		25460A731B779D5D0048B722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25460A761B779D5D0048B722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25460A781B779D5D0048B722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25460A7E1B77A2E10048B722 /* TAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAnimal.h; path = ../../test0808_bak/test0808/TAnimal.h; sourceTree = "<group>"; };
-		25460A7F1B77A2E10048B722 /* TAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAnimal.m; path = ../../test0808_bak/test0808/TAnimal.m; sourceTree = "<group>"; };
-		25460A811B77A3360048B722 /* TBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBird.h; path = ../../test0808_bak/test0808/TBird.h; sourceTree = "<group>"; };
-		25460A821B77A3360048B722 /* TBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBird.m; path = ../../test0808_bak/test0808/TBird.m; sourceTree = "<group>"; };
-		25460A841B77A70B0048B722 /* TFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFish.h; path = ../../test0808_bak/test0808/TFish.h; sourceTree = "<group>"; };
-		25460A851B77A70B0048B722 /* TFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFish.m; path = ../../test0808_bak/test0808/TFish.m; sourceTree = "<group>"; };
+		25460A9A1B77C6910048B722 /* TAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAnimal.h; sourceTree = "<group>"; };
+		25460A9B1B77C6910048B722 /* TAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAnimal.m; sourceTree = "<group>"; };
+		25460AB31B77C72B0048B722 /* TBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBird.h; sourceTree = "<group>"; };
+		25460AB41B77C72B0048B722 /* TBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBird.m; sourceTree = "<group>"; };
+		25460AB61B77C73B0048B722 /* TFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFish.h; sourceTree = "<group>"; };
+		25460AB71B77C73B0048B722 /* TFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFish.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +67,12 @@
 		25460A661B779D5D0048B722 /* test0808 */ = {
 			isa = PBXGroup;
 			children = (
-				25460A841B77A70B0048B722 /* TFish.h */,
-				25460A851B77A70B0048B722 /* TFish.m */,
-				25460A811B77A3360048B722 /* TBird.h */,
-				25460A821B77A3360048B722 /* TBird.m */,
-				25460A7E1B77A2E10048B722 /* TAnimal.h */,
-				25460A7F1B77A2E10048B722 /* TAnimal.m */,
+				25460AB61B77C73B0048B722 /* TFish.h */,
+				25460AB71B77C73B0048B722 /* TFish.m */,
+				25460AB31B77C72B0048B722 /* TBird.h */,
+				25460AB41B77C72B0048B722 /* TBird.m */,
+				25460A9A1B77C6910048B722 /* TAnimal.h */,
+				25460A9B1B77C6910048B722 /* TAnimal.m */,
 				25460A6D1B779D5D0048B722 /* ViewController.h */,
 				25460A6E1B779D5D0048B722 /* ViewController.m */,
 				25460A6A1B779D5D0048B722 /* AppDelegate.h */,
@@ -164,12 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25460A861B77A70B0048B722 /* TFish.m in Sources */,
+				25460AB81B77C73B0048B722 /* TFish.m in Sources */,
+				25460A9C1B77C6910048B722 /* TAnimal.m in Sources */,
 				25460A6F1B779D5D0048B722 /* ViewController.m in Sources */,
 				25460A6C1B779D5D0048B722 /* AppDelegate.m in Sources */,
-				25460A801B77A2E10048B722 /* TAnimal.m in Sources */,
 				25460A691B779D5D0048B722 /* main.m in Sources */,
-				25460A831B77A3360048B722 /* TBird.m in Sources */,
+				25460AB51B77C72B0048B722 /* TBird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,7 @@
 				25460A7D1B779D5D0048B722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

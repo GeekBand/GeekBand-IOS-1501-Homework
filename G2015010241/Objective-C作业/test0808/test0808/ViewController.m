@@ -50,8 +50,6 @@
             TFish *fish = (TFish *)animal;
             [fish swim];
         }
-//        int value = arc4random() % 2;
-//        NSLog(@"%d", value);
     }
     
     
@@ -59,44 +57,38 @@
     __block NSInteger catchFishCount = 0; // 捕的小鱼数目
     
     NSLog(@"第4题: 小明一会儿打鸟会儿捕鱼");
-//    for (TAnimal *animal in animals) {
-//        int value = arc4random() % 2;
-//        if ([animal isKindOfClass:[TBird class]]) {
-//            shootBirdCount += value;
-//        } else {
-//            catchFishCount += value;
-//        }
-//        [animals removeObject:animal];
-//    }
-
-//    NSEnumerator *en = [animals objectEnumerator];
-//    TAnimal *animal;
-//    while (animal = [en nextObject]) {
-//        int value = arc4random() % 2;
-//        if ([animal isKindOfClass:[TBird class]]) {
-//                shootBirdCount += value;
-//        } else {
-//            catchFishCount += value;
-//        }
-//        [animals removeObject:animal];
-//    }
-    // 这里使用逆序哦。。。
-    [animals enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        TAnimal *animal = (TAnimal *)obj;
-        int value = arc4random() % 2;
-        // NSLog(@"%@----%d----%lu", [animal name], value, (unsigned long)idx);
-        if (value == 1) {
+    NSInteger animalCount = [animals count];
+    // 必须用倒序
+    for (NSInteger i=animalCount-1; i>=0; i--) {
+        int value = arc4random() % 2; // 生成0/1随机数
+        if (value == 1) { // 假设1代表小明打中鸟或捕到鱼
+            TAnimal *animal = animals[i];
             if ([animal isKindOfClass:[TBird class]]) {
-                shootBirdCount += 1;
+                shootBirdCount++;
             } else {
-                catchFishCount += 1;
+                catchFishCount++;
             }
-            [animals removeObject:animal]; // 小鱼或小鸟 game over
+            [animals removeObject:animal];
         }
-    }];
+    }
+
+    // 这里使用逆序哦。。。
+//    [animals enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+//        TAnimal *animal = (TAnimal *)obj;
+//        int value = arc4random() % 2;
+//        // NSLog(@"%@----%d----%lu", [animal name], value, (unsigned long)idx);
+//        if (value == 1) {
+//            if ([animal isKindOfClass:[TBird class]]) {
+//                shootBirdCount += 1;
+//            } else {
+//                catchFishCount += 1;
+//            }
+//            [animals removeObject:animal]; // 小鱼或小鸟 game over
+//        }
+//    }];
     
-    NSLog(@"小明一共打了%lu只鸟，捕了%lu只鱼。", shootBirdCount, catchFishCount);
-    NSLog(@"空中还剩%lu只鸟，小河中还剩%lu只鱼。", animals.count, animals.count);
+    NSLog(@"小明一共打了%lu只鸟，捕了%lu条鱼。", shootBirdCount, catchFishCount);
+    NSLog(@"空中还剩%lu只鸟，水中还剩%lu条鱼，共%lu个小动物。", 10-shootBirdCount, 10 - catchFishCount, animals.count);
     
     
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> my code end
