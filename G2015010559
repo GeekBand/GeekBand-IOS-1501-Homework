@@ -1,0 +1,15 @@
+#import <Foundation/Foundation.h>
+typedef enum {
+    male,
+    female
+} AnimalSexType;
+
+@interface Animal : NSObject
+@property (nonatomic,copy) NSString* name;
+@property(nonatomic,assign)NSInteger weight;
+@property(nonatomic,assign)AnimalSexType sex;
+
++(void)sayState;
+-(instancetype)initWithName:(NSString*)name Weight:(NSInteger)weight Sex:(AnimalSexType)sex;
+-(void)sayMy;
+@end
