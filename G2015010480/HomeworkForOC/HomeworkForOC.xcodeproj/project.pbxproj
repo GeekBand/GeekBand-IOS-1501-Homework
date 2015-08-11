@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E52CA0A51B78F2D10087C2F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52CA0A41B78F2D10087C2F4 /* main.m */; };
+		E52CA0AD1B78F3C80087C2F4 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = E52CA0AC1B78F3C80087C2F4 /* Animal.m */; };
+		E52CA0B01B78F6750087C2F4 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = E52CA0AF1B78F6750087C2F4 /* Bird.m */; };
+		E52CA0B31B78F6850087C2F4 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = E52CA0B21B78F6850087C2F4 /* Fish.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E52CA0A11B78F2D10087C2F4 /* HomeworkForOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HomeworkForOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52CA0A41B78F2D10087C2F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E52CA0AB1B78F3C80087C2F4 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		E52CA0AC1B78F3C80087C2F4 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		E52CA0AE1B78F6750087C2F4 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		E52CA0AF1B78F6750087C2F4 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		E52CA0B11B78F6850087C2F4 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		E52CA0B21B78F6850087C2F4 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E52CA0A41B78F2D10087C2F4 /* main.m */,
+				E52CA0AB1B78F3C80087C2F4 /* Animal.h */,
+				E52CA0AC1B78F3C80087C2F4 /* Animal.m */,
+				E52CA0AE1B78F6750087C2F4 /* Bird.h */,
+				E52CA0AF1B78F6750087C2F4 /* Bird.m */,
+				E52CA0B11B78F6850087C2F4 /* Fish.h */,
+				E52CA0B21B78F6850087C2F4 /* Fish.m */,
 			);
 			path = HomeworkForOC;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52CA0A51B78F2D10087C2F4 /* main.m in Sources */,
+				E52CA0AD1B78F3C80087C2F4 /* Animal.m in Sources */,
+				E52CA0B01B78F6750087C2F4 /* Bird.m in Sources */,
+				E52CA0B31B78F6850087C2F4 /* Fish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
