@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		CB8C2B631B7CCB3300064632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B621B7CCB3300064632 /* main.m */; };
 		CB8C2B661B7CCB3300064632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B651B7CCB3300064632 /* AppDelegate.m */; };
-		CB8C2B691B7CCB3300064632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B681B7CCB3300064632 /* ViewController.m */; };
 		CB8C2B6C1B7CCB3300064632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8C2B6A1B7CCB3300064632 /* Main.storyboard */; };
 		CB8C2B6E1B7CCB3300064632 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8C2B6D1B7CCB3300064632 /* Images.xcassets */; };
 		CB8C2B711B7CCB3300064632 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8C2B6F1B7CCB3300064632 /* LaunchScreen.xib */; };
 		CB8C2B7D1B7CCB3300064632 /* OCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B7C1B7CCB3300064632 /* OCTestTests.m */; };
+		CB8C2B881B7CCB4500064632 /* BLAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B871B7CCB4500064632 /* BLAnimal.m */; };
+		CB8C2B8D1B7CCB5200064632 /* BLBird.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B8A1B7CCB5200064632 /* BLBird.m */; };
+		CB8C2B8E1B7CCB5200064632 /* BLFish.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B8C1B7CCB5200064632 /* BLFish.m */; };
+		CB8C2B901B7CCB7900064632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2B8F1B7CCB7900064632 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +36,19 @@
 		CB8C2B641B7CCB3300064632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB8C2B651B7CCB3300064632 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB8C2B671B7CCB3300064632 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB8C2B681B7CCB3300064632 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB8C2B6B1B7CCB3300064632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8C2B6D1B7CCB3300064632 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB8C2B701B7CCB3300064632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CB8C2B761B7CCB3300064632 /* OCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8C2B7B1B7CCB3300064632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8C2B7C1B7CCB3300064632 /* OCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestTests.m; sourceTree = "<group>"; };
+		CB8C2B861B7CCB4500064632 /* BLAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnimal.h; sourceTree = "<group>"; };
+		CB8C2B871B7CCB4500064632 /* BLAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnimal.m; sourceTree = "<group>"; };
+		CB8C2B891B7CCB5200064632 /* BLBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBird.h; sourceTree = "<group>"; };
+		CB8C2B8A1B7CCB5200064632 /* BLBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBird.m; sourceTree = "<group>"; };
+		CB8C2B8B1B7CCB5200064632 /* BLFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLFish.h; sourceTree = "<group>"; };
+		CB8C2B8C1B7CCB5200064632 /* BLFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFish.m; sourceTree = "<group>"; };
+		CB8C2B8F1B7CCB7900064632 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,16 @@
 		CB8C2B5F1B7CCB3300064632 /* OCTest */ = {
 			isa = PBXGroup;
 			children = (
+				CB8C2B861B7CCB4500064632 /* BLAnimal.h */,
+				CB8C2B871B7CCB4500064632 /* BLAnimal.m */,
 				CB8C2B641B7CCB3300064632 /* AppDelegate.h */,
 				CB8C2B651B7CCB3300064632 /* AppDelegate.m */,
 				CB8C2B671B7CCB3300064632 /* ViewController.h */,
-				CB8C2B681B7CCB3300064632 /* ViewController.m */,
+				CB8C2B8F1B7CCB7900064632 /* ViewController.m */,
+				CB8C2B891B7CCB5200064632 /* BLBird.h */,
+				CB8C2B8A1B7CCB5200064632 /* BLBird.m */,
+				CB8C2B8B1B7CCB5200064632 /* BLFish.h */,
+				CB8C2B8C1B7CCB5200064632 /* BLFish.m */,
 				CB8C2B6A1B7CCB3300064632 /* Main.storyboard */,
 				CB8C2B6D1B7CCB3300064632 /* Images.xcassets */,
 				CB8C2B6F1B7CCB3300064632 /* LaunchScreen.xib */,
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8C2B691B7CCB3300064632 /* ViewController.m in Sources */,
+				CB8C2B901B7CCB7900064632 /* ViewController.m in Sources */,
+				CB8C2B8D1B7CCB5200064632 /* BLBird.m in Sources */,
+				CB8C2B8E1B7CCB5200064632 /* BLFish.m in Sources */,
+				CB8C2B881B7CCB4500064632 /* BLAnimal.m in Sources */,
 				CB8C2B661B7CCB3300064632 /* AppDelegate.m in Sources */,
 				CB8C2B631B7CCB3300064632 /* main.m in Sources */,
 			);
