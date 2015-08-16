@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F80BCC8-9C2C-485F-8C12-97F779BA83E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>https://github.com/GeekBand/GeekBand-IOS-1501-Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>G2015010139/Homework/Homework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GeekBand/GeekBand-IOS-1501-Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GeekBand-IOS-1501-Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
