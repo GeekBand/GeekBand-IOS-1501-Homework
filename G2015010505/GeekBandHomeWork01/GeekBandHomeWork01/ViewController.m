@@ -47,11 +47,11 @@
 
 - (void)netFishFromArray:(NSMutableArray *)array
 {
-    int killNumber = arc4random() % 11;
+    unsigned killNumber = arc4random() % 10+1;
     NSLog(@"kill %i fish", killNumber);
     for (int x = 0; x < killNumber; x++) {
         for (WZFish *i in array) {
-            if ([i isMemberOfClass:[WZFish class]]) {
+            if ([i isMemberOfClass:[WZFish class]] && [array count]) {
                 [i animalSpeak];
                 [array removeObject:i];
                 break;
@@ -62,11 +62,11 @@
 
 - (void)hurtBirdFromArray:(NSMutableArray *)array
 {
-    int killNumber = arc4random() % 11;
+    unsigned killNumber = arc4random() % 10+1;
     NSLog(@"kill %i bird", killNumber);
     for (int x = 0; x < killNumber; x++) {
         for (WZBird *i in array) {
-            if ([i isMemberOfClass:[WZBird class]]) {
+            if ([i isMemberOfClass:[WZBird class]] && [array count]) {
                 [i animalSpeak];
                 [array removeObject:i];
                 break;
