@@ -8,6 +8,7 @@
 
 #import "MySquareVc.h"
 #import "UIColor+Hex.h"
+#import "SquareTableViewCell.h"
 @interface MySquareVc ()
 
 @end
@@ -33,24 +34,31 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 2;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+   
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+//
     
-    // Configure the cell...
+//    SquareTableViewCell *cell = nil;
+    static NSString *cellIdentifier = @"SquareTableViewCell";
+     SquareTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell == nil) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"SquareTableViewCell" owner:self options:nil] lastObject];
+    }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

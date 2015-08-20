@@ -82,6 +82,8 @@
 		DF7DDCDE1B831E2F0098B42A /* square_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7DDCA81B831E2F0098B42A /* square_selected@2x.png */; };
 		DF7DDCDF1B831E2F0098B42A /* square_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7DDCA91B831E2F0098B42A /* square_selected@3x.png */; };
 		DF87FA811B84B6B700E9F434 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DF87FA801B84B6B700E9F434 /* UIColor+Hex.m */; };
+		DFF882881B85B8D6004E1EDE /* SquareCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF882871B85B8D6004E1EDE /* SquareCollectionViewCell.m */; };
+		DFF8828B1B85C7BF004E1EDE /* SquareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8828A1B85C7BF004E1EDE /* SquareTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +198,10 @@
 		DF7DDCA91B831E2F0098B42A /* square_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square_selected@3x.png"; sourceTree = "<group>"; };
 		DF87FA7F1B84B6B700E9F434 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		DF87FA801B84B6B700E9F434 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		DFF882861B85B8D6004E1EDE /* SquareCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareCollectionViewCell.h; sourceTree = "<group>"; };
+		DFF882871B85B8D6004E1EDE /* SquareCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareCollectionViewCell.m; sourceTree = "<group>"; };
+		DFF882891B85C7BF004E1EDE /* SquareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareTableViewCell.h; sourceTree = "<group>"; };
+		DFF8828A1B85C7BF004E1EDE /* SquareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +376,10 @@
 		DF7DDC541B82EEA30098B42A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DFF882861B85B8D6004E1EDE /* SquareCollectionViewCell.h */,
+				DFF882871B85B8D6004E1EDE /* SquareCollectionViewCell.m */,
+				DFF882891B85C7BF004E1EDE /* SquareTableViewCell.h */,
+				DFF8828A1B85C7BF004E1EDE /* SquareTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -712,8 +722,10 @@
 				DF7DDC611B82EEA30098B42A /* AppDelegate.m in Sources */,
 				DF02AA1B1B836D4B00DC3B2A /* MoranMainTableVc.m in Sources */,
 				DF0B81621B8524130033A504 /* MyLoginVc.m in Sources */,
+				DFF8828B1B85C7BF004E1EDE /* SquareTableViewCell.m in Sources */,
 				DF7DDC6F1B82EEA30098B42A /* main.m in Sources */,
 				DF0B81681B8528330033A504 /* MySquareVc.m in Sources */,
+				DFF882881B85B8D6004E1EDE /* SquareCollectionViewCell.m in Sources */,
 				DF7DDC641B82EEA30098B42A /* LAddress.m in Sources */,
 				DF87FA811B84B6B700E9F434 /* UIColor+Hex.m in Sources */,
 			);
