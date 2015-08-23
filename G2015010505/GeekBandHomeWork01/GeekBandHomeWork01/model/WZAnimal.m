@@ -12,15 +12,27 @@
 
 - (void)animalSpeak
 {
-    NSLog(@"I am %@, Sex is %u, Weight is: %li", self.name, self.sex, (long)self.weight);
+    NSLog(@"I am %@, Sex is %@, Weight is: %li", self.name, self.gender, (long)self.weight);
 }
 
-- (instancetype)initWithName:(NSString *)aName Sex:(Sex)aSex weight:(NSInteger)aWeight
+- (NSString *)sexGender:(Sex)sex;
+{
+    if (sex == 1) {
+        return @"male";
+    } else if (sex == 2) {
+        return @"female";
+    }
+    return @"noSex";
+}
+
+- (instancetype)initWithName:(NSString *)aName sexToGender:(Sex)aSex weight:(NSInteger)aWeight
 {
     self = [super init];
     if (self) {
         self.name = aName;
         self.sex = aSex;
+//        self.gender = (aSex == 1 ? @"male" : @"female"); 
+        self.gender = [self sexGender:aSex];
         self.weight = aWeight;
     }
     return self;
