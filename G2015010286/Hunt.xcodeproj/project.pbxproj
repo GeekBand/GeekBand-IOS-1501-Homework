@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22777D871B75A04D0055966D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777D861B75A04D0055966D /* main.m */; };
+		22777D8A1B75A04D0055966D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777D891B75A04D0055966D /* AppDelegate.m */; };
+		22777D901B75A04D0055966D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22777D8E1B75A04D0055966D /* Main.storyboard */; };
+		22777D921B75A04D0055966D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22777D911B75A04D0055966D /* Assets.xcassets */; };
+		22777D951B75A04D0055966D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22777D931B75A04D0055966D /* LaunchScreen.storyboard */; };
+		22777DA01B75A04D0055966D /* HuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777D9F1B75A04D0055966D /* HuntTests.m */; };
+		22777DAB1B75A04D0055966D /* HuntUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777DAA1B75A04D0055966D /* HuntUITests.m */; };
+		22777DBD1B75A0E90055966D /* FZAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777DBC1B75A0E90055966D /* FZAnimals.m */; };
+		22777DC01B75A7040055966D /* FZBirds.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777DBF1B75A7040055966D /* FZBirds.m */; };
+		22777DC31B75A97E0055966D /* FZFishes.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777DC21B75A97E0055966D /* FZFishes.m */; };
+		22777DC61B75AE050055966D /* FZHuntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22777DC51B75AE050055966D /* FZHuntViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22777D9C1B75A04D0055966D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22777D7A1B75A04D0055966D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22777D811B75A04D0055966D;
+			remoteInfo = Hunt;
+		};
+		22777DA71B75A04D0055966D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22777D7A1B75A04D0055966D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22777D811B75A04D0055966D;
+			remoteInfo = Hunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22777D821B75A04D0055966D /* Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22777D861B75A04D0055966D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22777D881B75A04D0055966D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22777D891B75A04D0055966D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22777D8F1B75A04D0055966D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22777D911B75A04D0055966D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22777D941B75A04D0055966D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22777D961B75A04D0055966D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22777D9B1B75A04D0055966D /* HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22777D9F1B75A04D0055966D /* HuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuntTests.m; sourceTree = "<group>"; };
+		22777DA11B75A04D0055966D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22777DA61B75A04D0055966D /* HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22777DAA1B75A04D0055966D /* HuntUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuntUITests.m; sourceTree = "<group>"; };
+		22777DAC1B75A04D0055966D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22777DBB1B75A0E90055966D /* FZAnimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FZAnimals.h; path = ../FZAnimals.h; sourceTree = "<group>"; };
+		22777DBC1B75A0E90055966D /* FZAnimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FZAnimals.m; path = ../FZAnimals.m; sourceTree = "<group>"; };
+		22777DBE1B75A7040055966D /* FZBirds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZBirds.h; sourceTree = "<group>"; };
+		22777DBF1B75A7040055966D /* FZBirds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZBirds.m; sourceTree = "<group>"; };
+		22777DC11B75A97E0055966D /* FZFishes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZFishes.h; sourceTree = "<group>"; };
+		22777DC21B75A97E0055966D /* FZFishes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZFishes.m; sourceTree = "<group>"; };
+		22777DC41B75AE050055966D /* FZHuntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZHuntViewController.h; sourceTree = "<group>"; };
+		22777DC51B75AE050055966D /* FZHuntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZHuntViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22777D7F1B75A04D0055966D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777D981B75A04D0055966D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777DA31B75A04D0055966D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22777D791B75A04D0055966D = {
+			isa = PBXGroup;
+			children = (
+				22777D841B75A04D0055966D /* Hunt */,
+				22777D9E1B75A04D0055966D /* HuntTests */,
+				22777DA91B75A04D0055966D /* HuntUITests */,
+				22777D831B75A04D0055966D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22777D831B75A04D0055966D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22777D821B75A04D0055966D /* Hunt.app */,
+				22777D9B1B75A04D0055966D /* HuntTests.xctest */,
+				22777DA61B75A04D0055966D /* HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22777D841B75A04D0055966D /* Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				22777DBB1B75A0E90055966D /* FZAnimals.h */,
+				22777DBC1B75A0E90055966D /* FZAnimals.m */,
+				22777DBE1B75A7040055966D /* FZBirds.h */,
+				22777DBF1B75A7040055966D /* FZBirds.m */,
+				22777DC11B75A97E0055966D /* FZFishes.h */,
+				22777DC21B75A97E0055966D /* FZFishes.m */,
+				22777D881B75A04D0055966D /* AppDelegate.h */,
+				22777D891B75A04D0055966D /* AppDelegate.m */,
+				22777DC41B75AE050055966D /* FZHuntViewController.h */,
+				22777DC51B75AE050055966D /* FZHuntViewController.m */,
+				22777D8E1B75A04D0055966D /* Main.storyboard */,
+				22777D911B75A04D0055966D /* Assets.xcassets */,
+				22777D931B75A04D0055966D /* LaunchScreen.storyboard */,
+				22777D961B75A04D0055966D /* Info.plist */,
+				22777D851B75A04D0055966D /* Supporting Files */,
+			);
+			path = Hunt;
+			sourceTree = "<group>";
+		};
+		22777D851B75A04D0055966D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22777D861B75A04D0055966D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22777D9E1B75A04D0055966D /* HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				22777D9F1B75A04D0055966D /* HuntTests.m */,
+				22777DA11B75A04D0055966D /* Info.plist */,
+			);
+			path = HuntTests;
+			sourceTree = "<group>";
+		};
+		22777DA91B75A04D0055966D /* HuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22777DAA1B75A04D0055966D /* HuntUITests.m */,
+				22777DAC1B75A04D0055966D /* Info.plist */,
+			);
+			path = HuntUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22777D811B75A04D0055966D /* Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22777DAF1B75A04D0055966D /* Build configuration list for PBXNativeTarget "Hunt" */;
+			buildPhases = (
+				22777D7E1B75A04D0055966D /* Sources */,
+				22777D7F1B75A04D0055966D /* Frameworks */,
+				22777D801B75A04D0055966D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hunt;
+			productName = Hunt;
+			productReference = 22777D821B75A04D0055966D /* Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22777D9A1B75A04D0055966D /* HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22777DB21B75A04D0055966D /* Build configuration list for PBXNativeTarget "HuntTests" */;
+			buildPhases = (
+				22777D971B75A04D0055966D /* Sources */,
+				22777D981B75A04D0055966D /* Frameworks */,
+				22777D991B75A04D0055966D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22777D9D1B75A04D0055966D /* PBXTargetDependency */,
+			);
+			name = HuntTests;
+			productName = HuntTests;
+			productReference = 22777D9B1B75A04D0055966D /* HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22777DA51B75A04D0055966D /* HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22777DB51B75A04D0055966D /* Build configuration list for PBXNativeTarget "HuntUITests" */;
+			buildPhases = (
+				22777DA21B75A04D0055966D /* Sources */,
+				22777DA31B75A04D0055966D /* Frameworks */,
+				22777DA41B75A04D0055966D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22777DA81B75A04D0055966D /* PBXTargetDependency */,
+			);
+			name = HuntUITests;
+			productName = HuntUITests;
+			productReference = 22777DA61B75A04D0055966D /* HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22777D7A1B75A04D0055966D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Flame;
+				TargetAttributes = {
+					22777D811B75A04D0055966D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WY9HP5M773;
+					};
+					22777D9A1B75A04D0055966D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22777D811B75A04D0055966D;
+					};
+					22777DA51B75A04D0055966D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22777D811B75A04D0055966D;
+					};
+				};
+			};
+			buildConfigurationList = 22777D7D1B75A04D0055966D /* Build configuration list for PBXProject "Hunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22777D791B75A04D0055966D;
+			productRefGroup = 22777D831B75A04D0055966D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22777D811B75A04D0055966D /* Hunt */,
+				22777D9A1B75A04D0055966D /* HuntTests */,
+				22777DA51B75A04D0055966D /* HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22777D801B75A04D0055966D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22777D951B75A04D0055966D /* LaunchScreen.storyboard in Resources */,
+				22777D921B75A04D0055966D /* Assets.xcassets in Resources */,
+				22777D901B75A04D0055966D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777D991B75A04D0055966D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777DA41B75A04D0055966D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22777D7E1B75A04D0055966D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22777DC61B75AE050055966D /* FZHuntViewController.m in Sources */,
+				22777DC01B75A7040055966D /* FZBirds.m in Sources */,
+				22777D8A1B75A04D0055966D /* AppDelegate.m in Sources */,
+				22777DC31B75A97E0055966D /* FZFishes.m in Sources */,
+				22777D871B75A04D0055966D /* main.m in Sources */,
+				22777DBD1B75A0E90055966D /* FZAnimals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777D971B75A04D0055966D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22777DA01B75A04D0055966D /* HuntTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22777DA21B75A04D0055966D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22777DAB1B75A04D0055966D /* HuntUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22777D9D1B75A04D0055966D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22777D811B75A04D0055966D /* Hunt */;
+			targetProxy = 22777D9C1B75A04D0055966D /* PBXContainerItemProxy */;
+		};
+		22777DA81B75A04D0055966D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22777D811B75A04D0055966D /* Hunt */;
+			targetProxy = 22777DA71B75A04D0055966D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22777D8E1B75A04D0055966D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22777D8F1B75A04D0055966D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22777D931B75A04D0055966D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22777D941B75A04D0055966D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22777DAD1B75A04D0055966D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22777DAE1B75A04D0055966D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22777DB01B75A04D0055966D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Hunt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.Hunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22777DB11B75A04D0055966D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Hunt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.Hunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22777DB31B75A04D0055966D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.HuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hunt.app/Hunt";
+			};
+			name = Debug;
+		};
+		22777DB41B75A04D0055966D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.HuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hunt.app/Hunt";
+			};
+			name = Release;
+		};
+		22777DB61B75A04D0055966D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.HuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hunt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22777DB71B75A04D0055966D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flame.HuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hunt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22777D7D1B75A04D0055966D /* Build configuration list for PBXProject "Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22777DAD1B75A04D0055966D /* Debug */,
+				22777DAE1B75A04D0055966D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22777DAF1B75A04D0055966D /* Build configuration list for PBXNativeTarget "Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22777DB01B75A04D0055966D /* Debug */,
+				22777DB11B75A04D0055966D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22777DB21B75A04D0055966D /* Build configuration list for PBXNativeTarget "HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22777DB31B75A04D0055966D /* Debug */,
+				22777DB41B75A04D0055966D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22777DB51B75A04D0055966D /* Build configuration list for PBXNativeTarget "HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22777DB61B75A04D0055966D /* Debug */,
+				22777DB71B75A04D0055966D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22777D7A1B75A04D0055966D /* Project object */;
+}
