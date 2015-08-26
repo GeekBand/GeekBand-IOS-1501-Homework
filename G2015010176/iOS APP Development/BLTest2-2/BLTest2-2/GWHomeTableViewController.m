@@ -28,6 +28,8 @@
     
     [self downloadData];
     
+    [self.tableView reloadData];
+    
     
 }
 
@@ -124,7 +126,7 @@
 }
 
 
-#pragma mark - refresh action
+#pragma mark - Refresh action
 
 - (IBAction)refreshAppsCell {
  
@@ -137,6 +139,7 @@
         
         [self checkNetwork];
         [self downloadData];
+        [self.tableView reloadData];
         
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.refreshControl endRefreshing];
