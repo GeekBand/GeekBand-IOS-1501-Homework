@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZO-61-xn3">
+                                <rect key="frame" x="175" y="336" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="EGt-kS-NU9"/>
+                                    <constraint firstAttribute="height" constant="30" id="gK8-gK-Vwc"/>
+                                </constraints>
+                                <state key="normal" title="捕鱼">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="catchFish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="28Q-FL-nzw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oN4-PL-DhP">
+                                <rect key="frame" x="285" y="336" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6I2-at-pKO"/>
+                                    <constraint firstAttribute="width" constant="30" id="YBi-Rw-sbB"/>
+                                </constraints>
+                                <state key="normal" title="打鸟">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shootBird:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBC-vq-vLs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已抓到10只鸟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUF-yh-JaB">
+                                <rect key="frame" x="16" y="160" width="568" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="km2-rh-T1a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已抓到10条鱼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJw-j2-97i">
+                                <rect key="frame" x="16" y="225" width="568" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="m0Y-xe-ZuF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpk-CT-Kjh">
+                                <rect key="frame" x="395" y="336" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hgo-Vj-SeS"/>
+                                    <constraint firstAttribute="width" constant="30" id="YWs-O5-0JD"/>
+                                </constraints>
+                                <state key="normal" title="重置">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZY-Aa-Pty"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qUF-yh-JaB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="140" id="0e9-4s-isD"/>
+                            <constraint firstItem="oN4-PL-DhP" firstAttribute="leading" secondItem="GZO-61-xn3" secondAttribute="trailing" constant="80" id="1iG-E7-3zi"/>
+                            <constraint firstItem="dpk-CT-Kjh" firstAttribute="top" secondItem="oN4-PL-DhP" secondAttribute="top" id="3e2-Nv-yze"/>
+                            <constraint firstItem="oN4-PL-DhP" firstAttribute="top" secondItem="fJw-j2-97i" secondAttribute="bottom" constant="90" id="8rP-MD-WtA"/>
+                            <constraint firstItem="qUF-yh-JaB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="IcP-Mk-ZUX"/>
+                            <constraint firstAttribute="trailing" secondItem="fJw-j2-97i" secondAttribute="trailing" constant="16" id="XHZ-rr-k8c"/>
+                            <constraint firstItem="fJw-j2-97i" firstAttribute="top" secondItem="qUF-yh-JaB" secondAttribute="bottom" constant="44" id="Zan-N3-xn0"/>
+                            <constraint firstItem="GZO-61-xn3" firstAttribute="top" secondItem="oN4-PL-DhP" secondAttribute="top" id="fks-EM-WCK"/>
+                            <constraint firstAttribute="trailing" secondItem="qUF-yh-JaB" secondAttribute="trailing" constant="16" id="ih1-Wb-Tpo"/>
+                            <constraint firstItem="dpk-CT-Kjh" firstAttribute="leading" secondItem="oN4-PL-DhP" secondAttribute="trailing" constant="80" id="m27-0x-O6M"/>
+                            <constraint firstItem="fJw-j2-97i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="oqT-IF-9mL"/>
+                            <constraint firstAttribute="centerX" secondItem="oN4-PL-DhP" secondAttribute="centerX" id="q3P-kC-KHN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birdInfoLabel" destination="qUF-yh-JaB" id="8hM-Re-St7"/>
+                        <outlet property="fishInfoLabel" destination="fJw-j2-97i" id="ZXH-l1-s2L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

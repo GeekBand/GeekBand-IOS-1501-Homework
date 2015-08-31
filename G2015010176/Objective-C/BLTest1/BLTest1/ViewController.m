@@ -29,7 +29,7 @@
         randomGWBird.color = [UIColor whiteColor];
         [animal addObject:randomGWBird];
         
-        // TODO: Set a NSArray to init randomGWFish.
+        // TODO: Set a NSArray to init randomGWFish with different name.
         GWFish *randomGWFish = [[GWFish alloc] initWithName:@"Fish" gender:(Gender)(arc4random() % 2) weight:(NSUInteger)(arc4random() % 100)];
         randomGWFish.color = [UIColor colorWithRed:0.0 green:1.0 blue:0.0 alpha:1.0];
         [animal addObject:randomGWFish];
