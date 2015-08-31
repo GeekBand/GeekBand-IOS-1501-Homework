@@ -24,9 +24,9 @@
     
     [super viewDidLoad];
     
-    [self checkNetwork];
-    
-    [self downloadData];
+//    [self checkNetwork];
+//    
+//    [self downloadData];
     
     [self.tableView reloadData];
     
@@ -44,7 +44,7 @@
 - (void)downloadData {
     
     // Get the Entry Dictionary contaions 10 objects (apps what we really care).
-    NSURL *url = [NSURL URLWithString:@"http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=10/json"];
+    NSURL *url = [NSURL URLWithString:@"http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=100/json"];
     
     
     // Use NSURLSession fetch the JSON data
@@ -132,6 +132,12 @@
  
     [self.refreshControl beginRefreshing];
     
+//    // 串行线程
+//    __weak __typeof(self)weakSelf = self;
+//    dispatch_group_t group = dispatch_group_create();
+//    dispatch_queue_t queue = dispatch_get_global_queue(0, 0);
+//    
+    
     
     dispatch_queue_t fetchQ = dispatch_queue_create("fetch apps' data", NULL);
     
@@ -158,7 +164,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
-    return 10;
+    return 100;
     
 }
 
@@ -174,6 +180,7 @@
     NSDictionary *emtry = self.appEntries[indexPath.row];
     
     // Configure cells' properties
+    // FIXIT: - Add third UIImage refresh pod
     NSArray *imimage = [emtry valueForKeyPath:@"im:image"];
     NSDictionary *mediumImage = imimage[1];
     UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[mediumImage valueForKeyPath:@"label"]]]];

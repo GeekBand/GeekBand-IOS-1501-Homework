@@ -18,6 +18,7 @@
 		BE4205351B8C262D009D9F2B /* BLTest2_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4205341B8C262D009D9F2B /* BLTest2_2Tests.m */; };
 		BE4205421B8C268C009D9F2B /* GWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE42053F1B8C268C009D9F2B /* GWHomeTableViewController.m */; };
 		BE4205431B8C268C009D9F2B /* GWAppsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4205411B8C268C009D9F2B /* GWAppsTableViewCell.m */; };
+		BE4DF36B1B8E9620005A15FB /* GWSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DF36A1B8E9620005A15FB /* GWSettingsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,19 @@
 			remoteInfo = "BLTest2-2";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEBF089B1B91656300422E10 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BE000C811B8D8BDE00D78C47 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -53,6 +67,8 @@
 		BE42053F1B8C268C009D9F2B /* GWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWHomeTableViewController.m; sourceTree = "<group>"; };
 		BE4205401B8C268C009D9F2B /* GWAppsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAppsTableViewCell.h; sourceTree = "<group>"; };
 		BE4205411B8C268C009D9F2B /* GWAppsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAppsTableViewCell.m; sourceTree = "<group>"; };
+		BE4DF3691B8E9620005A15FB /* GWSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSettingsTableViewController.h; sourceTree = "<group>"; };
+		BE4DF36A1B8E9620005A15FB /* GWSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSettingsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +116,30 @@
 			name = Global;
 			sourceTree = "<group>";
 		};
+		BE289B761B91AC8C0024058F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE4205271B8C262D009D9F2B /* LaunchScreen.xib */,
+				BE4205221B8C262D009D9F2B /* Main.storyboard */,
+				BE4205401B8C268C009D9F2B /* GWAppsTableViewCell.h */,
+				BE4205411B8C268C009D9F2B /* GWAppsTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BE289B771B91AC960024058F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE42053E1B8C268C009D9F2B /* GWHomeTableViewController.h */,
+				BE42053F1B8C268C009D9F2B /* GWHomeTableViewController.m */,
+				BE4DF3691B8E9620005A15FB /* GWSettingsTableViewController.h */,
+				BE4DF36A1B8E9620005A15FB /* GWSettingsTableViewController.m */,
+				BE000C8F1B8DA6FC00D78C47 /* GWGenerialSettingsTableViewController.h */,
+				BE000C901B8DA6FC00D78C47 /* GWGenerialSettingsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		BE42050C1B8C262D009D9F2B = {
 			isa = PBXGroup;
 			children = (
@@ -121,17 +161,8 @@
 		BE4205171B8C262D009D9F2B /* BLTest2-2 */ = {
 			isa = PBXGroup;
 			children = (
-				BE42051C1B8C262D009D9F2B /* AppDelegate.h */,
-				BE42051D1B8C262D009D9F2B /* AppDelegate.m */,
-				BE4205221B8C262D009D9F2B /* Main.storyboard */,
-				BE42053E1B8C268C009D9F2B /* GWHomeTableViewController.h */,
-				BE42053F1B8C268C009D9F2B /* GWHomeTableViewController.m */,
-				BE000C8F1B8DA6FC00D78C47 /* GWGenerialSettingsTableViewController.h */,
-				BE000C901B8DA6FC00D78C47 /* GWGenerialSettingsTableViewController.m */,
-				BE4205401B8C268C009D9F2B /* GWAppsTableViewCell.h */,
-				BE4205411B8C268C009D9F2B /* GWAppsTableViewCell.m */,
-				BE4205251B8C262D009D9F2B /* Images.xcassets */,
-				BE4205271B8C262D009D9F2B /* LaunchScreen.xib */,
+				BE289B771B91AC960024058F /* Controllers */,
+				BE289B761B91AC8C0024058F /* Views */,
 				BE000C851B8DA2ED00D78C47 /* Global */,
 				BE000C801B8D8BBA00D78C47 /* Utilities */,
 				BE4205181B8C262D009D9F2B /* Supporting Files */,
@@ -142,8 +173,11 @@
 		BE4205181B8C262D009D9F2B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE4205191B8C262D009D9F2B /* Info.plist */,
+				BE42051C1B8C262D009D9F2B /* AppDelegate.h */,
+				BE42051D1B8C262D009D9F2B /* AppDelegate.m */,
 				BE42051A1B8C262D009D9F2B /* main.m */,
+				BE4205251B8C262D009D9F2B /* Images.xcassets */,
+				BE4205191B8C262D009D9F2B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +209,7 @@
 				BE4205111B8C262D009D9F2B /* Sources */,
 				BE4205121B8C262D009D9F2B /* Frameworks */,
 				BE4205131B8C262D009D9F2B /* Resources */,
+				BEBF089B1B91656300422E10 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -265,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4DF36B1B8E9620005A15FB /* GWSettingsTableViewController.m in Sources */,
 				BE000C911B8DA6FC00D78C47 /* GWGenerialSettingsTableViewController.m in Sources */,
 				BE4205421B8C268C009D9F2B /* GWHomeTableViewController.m in Sources */,
 				BE4205431B8C268C009D9F2B /* GWAppsTableViewCell.m in Sources */,
