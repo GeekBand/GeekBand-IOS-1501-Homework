@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3wN-0E-mM7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rHa-dT-eTX">
+            <objects>
+                <tabBarController id="3wN-0E-mM7" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tPB-df-i20">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zgf-2d-csX" kind="relationship" relationship="viewControllers" id="yID-MZ-X4G"/>
+                        <segue destination="Mk6-hj-vFR" kind="relationship" relationship="viewControllers" id="jfR-3v-Udk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EET-u2-lJw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1034" y="-31"/>
+        </scene>
+        <!--topPaidApp-->
+        <scene sceneID="dlN-BX-FSN">
+            <objects>
+                <navigationController id="Mk6-hj-vFR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="topPaidApp" image="one" id="npd-pw-Myi"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GRq-DI-sH8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="hrY-D6-HDc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="PsQ-FN-rhg" kind="relationship" relationship="rootViewController" id="4nH-0B-3Cy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0K1-dH-FvS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="441"/>
+        </scene>
+        <!--Fav App Info View Controller-->
+        <scene sceneID="rg8-h9-jJ9">
+            <objects>
+                <viewController id="PsQ-FN-rhg" customClass="HJFavAppInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XmV-VR-5gQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AAn-XM-0VR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OqM-St-ZrE">
+                        <rect key="frame" x="0.0" y="64" width="320" height="524"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bakgrd.png" translatesAutoresizingMaskIntoConstraints="NO" id="YRH-Sx-ZrI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwe-ad-QHu">
+                                <rect key="frame" x="0.0" y="240" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="SoT-cf-FaZ"/>
+                                    <constraint firstAttribute="height" constant="44" id="z2o-Ca-gds"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3cH-au-EgM">
+                                <rect key="frame" x="0.0" y="63" width="320" height="456"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PsQ-FN-rhg" id="mTv-ai-3nh"/>
+                                    <outlet property="delegate" destination="PsQ-FN-rhg" id="blU-9o-WmQ"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="vJx-iQ-jEc">
+                                <rect key="frame" x="0.0" y="252" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="fv4-1A-Kxo"/>
+                                    <constraint firstAttribute="width" constant="320" id="moJ-Aq-9a0"/>
+                                </constraints>
+                                <color key="color" red="1" green="0.53655200879999998" blue="0.4106409399" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vJx-iQ-jEc" secondAttribute="centerX" id="DJd-hd-jQX"/>
+                            <constraint firstAttribute="centerY" secondItem="dwe-ad-QHu" secondAttribute="centerY" id="FbP-uu-RTi"/>
+                            <constraint firstAttribute="centerX" secondItem="dwe-ad-QHu" secondAttribute="centerX" id="Qd7-HK-bbg"/>
+                            <constraint firstAttribute="centerY" secondItem="vJx-iQ-jEc" secondAttribute="centerY" id="pyM-qI-q2w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nrp-qX-gT1"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="FavAppTableView" destination="3cH-au-EgM" id="PWX-Yi-48O"/>
+                        <outlet property="activityView" destination="vJx-iQ-jEc" id="FtN-Xn-zRC"/>
+                        <outlet property="hintLabel" destination="dwe-ad-QHu" id="Nsr-fZ-NTe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2H1-RT-ZEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="441"/>
+        </scene>
+        <!--聊天-->
+        <scene sceneID="kyd-Iw-3HY">
+            <objects>
+                <navigationController id="Zgf-2d-csX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="聊天" image="chat" id="MPQ-Ph-LBz"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4C8-Ln-cSh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6Hq-PK-GWU" kind="relationship" relationship="rootViewController" id="utb-r1-Cci"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1X-85-4pL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="-459"/>
+        </scene>
+        <!--Chat Table View Controller-->
+        <scene sceneID="CHs-hT-hmR">
+            <objects>
+                <tableViewController id="6Hq-PK-GWU" customClass="HJChatTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zhd-Tj-rAP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="6Hq-PK-GWU" id="XpR-9J-HMk"/>
+                            <outlet property="delegate" destination="6Hq-PK-GWU" id="x7M-mC-HAJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="tT4-59-DAl"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLo-O5-EQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="-459"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bakgrd.png" width="320" height="480"/>
+        <image name="chat" width="16" height="16"/>
+        <image name="one" width="24" height="24"/>
+    </resources>
+</document>

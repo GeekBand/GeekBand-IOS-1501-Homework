@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3F06071B92F56E009B5172 /* HJAppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3F06061B92F56E009B5172 /* HJAppDetailViewController.m */; };
+		FD3F06091B93E20B009B5172 /* bakgrd.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3F06081B93E20B009B5172 /* bakgrd.png */; };
+		FD83A1121B915CE5004C898D /* HJNotChatTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A1111B915CE5004C898D /* HJNotChatTestTests.m */; };
+		FD83A12F1B915EBF004C898D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A11E1B915EBF004C898D /* AppDelegate.m */; };
+		FD83A1301B915EBF004C898D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1281B915EBF004C898D /* Images.xcassets */; };
+		FD83A1331B915EBF004C898D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A12E1B915EBF004C898D /* main.m */; };
+		FD83A1371B915FD2004C898D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1361B915FD2004C898D /* Main.storyboard */; };
+		FD83A13A1B91687F004C898D /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1391B91687F004C898D /* chat.png */; };
+		FD83A13D1B916A74004C898D /* HJChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A13C1B916A74004C898D /* HJChatTableViewController.m */; };
+		FD83A1401B916BC6004C898D /* HJChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A13F1B916BC6004C898D /* HJChatCell.m */; };
+		FD83A1431B917370004C898D /* HJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A1421B917370004C898D /* HJMessage.m */; };
+		FD83A14A1B9177FE004C898D /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1481B9177FE004C898D /* master.png */; };
+		FD83A14B1B9177FE004C898D /* wukong.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1491B9177FE004C898D /* wukong.png */; };
+		FD83A14E1B917DD4004C898D /* HJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A14D1B917DD4004C898D /* HJUser.m */; };
+		FD83A1501B919A0D004C898D /* messageBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83A14F1B919A0D004C898D /* messageBack.png */; };
+		FD83A1521B91AE49004C898D /* messageBackMe.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83A1511B91AE49004C898D /* messageBackMe.png */; };
+		FD83A1591B91DE40004C898D /* HJAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A1581B91DE40004C898D /* HJAppInfo.m */; };
+		FD83A15C1B92899F004C898D /* HJFavPaidAppRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A15B1B92899F004C898D /* HJFavPaidAppRequest.m */; };
+		FD83A15F1B928DCC004C898D /* HJFavPaidAppRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A15E1B928DCC004C898D /* HJFavPaidAppRequestParser.m */; };
+		FD83A1621B9294A7004C898D /* HJFavAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A1611B9294A7004C898D /* HJFavAppInfoViewController.m */; };
+		FD83A1651B92A257004C898D /* HJAppImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A1641B92A257004C898D /* HJAppImage.m */; };
+		FD83A16B1B92C785004C898D /* HJAppInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83A16A1B92C785004C898D /* HJAppInfoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD83A10C1B915CE5004C898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD83A0EA1B915CE4004C898D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD83A0F11B915CE4004C898D;
+			remoteInfo = HJNotChatTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD3F06051B92F56E009B5172 /* HJAppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAppDetailViewController.h; sourceTree = "<group>"; };
+		FD3F06061B92F56E009B5172 /* HJAppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAppDetailViewController.m; sourceTree = "<group>"; };
+		FD3F06081B93E20B009B5172 /* bakgrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakgrd.png; sourceTree = "<group>"; };
+		FD83A0F21B915CE4004C898D /* HJNotChatTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJNotChatTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD83A10B1B915CE5004C898D /* HJNotChatTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJNotChatTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD83A1101B915CE5004C898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD83A1111B915CE5004C898D /* HJNotChatTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJNotChatTestTests.m; sourceTree = "<group>"; };
+		FD83A11D1B915EBF004C898D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD83A11E1B915EBF004C898D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD83A1281B915EBF004C898D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD83A12D1B915EBF004C898D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD83A12E1B915EBF004C898D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD83A1361B915FD2004C898D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FD83A1391B91687F004C898D /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		FD83A13B1B916A74004C898D /* HJChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChatTableViewController.h; sourceTree = "<group>"; };
+		FD83A13C1B916A74004C898D /* HJChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChatTableViewController.m; sourceTree = "<group>"; };
+		FD83A13E1B916BC6004C898D /* HJChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChatCell.h; sourceTree = "<group>"; };
+		FD83A13F1B916BC6004C898D /* HJChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChatCell.m; sourceTree = "<group>"; };
+		FD83A1411B917370004C898D /* HJMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMessage.h; sourceTree = "<group>"; };
+		FD83A1421B917370004C898D /* HJMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMessage.m; sourceTree = "<group>"; };
+		FD83A1481B9177FE004C898D /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
+		FD83A1491B9177FE004C898D /* wukong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wukong.png; sourceTree = "<group>"; };
+		FD83A14C1B917DD4004C898D /* HJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJUser.h; sourceTree = "<group>"; };
+		FD83A14D1B917DD4004C898D /* HJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJUser.m; sourceTree = "<group>"; };
+		FD83A14F1B919A0D004C898D /* messageBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageBack.png; sourceTree = "<group>"; };
+		FD83A1511B91AE49004C898D /* messageBackMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageBackMe.png; sourceTree = "<group>"; };
+		FD83A1571B91DE40004C898D /* HJAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAppInfo.h; sourceTree = "<group>"; };
+		FD83A1581B91DE40004C898D /* HJAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAppInfo.m; sourceTree = "<group>"; };
+		FD83A15A1B92899F004C898D /* HJFavPaidAppRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFavPaidAppRequest.h; sourceTree = "<group>"; };
+		FD83A15B1B92899F004C898D /* HJFavPaidAppRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFavPaidAppRequest.m; sourceTree = "<group>"; };
+		FD83A15D1B928DCC004C898D /* HJFavPaidAppRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFavPaidAppRequestParser.h; sourceTree = "<group>"; };
+		FD83A15E1B928DCC004C898D /* HJFavPaidAppRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFavPaidAppRequestParser.m; sourceTree = "<group>"; };
+		FD83A1601B9294A7004C898D /* HJFavAppInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFavAppInfoViewController.h; sourceTree = "<group>"; };
+		FD83A1611B9294A7004C898D /* HJFavAppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFavAppInfoViewController.m; sourceTree = "<group>"; };
+		FD83A1631B92A257004C898D /* HJAppImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAppImage.h; sourceTree = "<group>"; };
+		FD83A1641B92A257004C898D /* HJAppImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAppImage.m; sourceTree = "<group>"; };
+		FD83A1691B92C785004C898D /* HJAppInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAppInfoCell.h; sourceTree = "<group>"; };
+		FD83A16A1B92C785004C898D /* HJAppInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAppInfoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD83A0EF1B915CE4004C898D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD83A1081B915CE5004C898D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD83A0E91B915CE4004C898D = {
+			isa = PBXGroup;
+			children = (
+				FD83A0F41B915CE4004C898D /* HJNotChatTest */,
+				FD83A10E1B915CE5004C898D /* HJNotChatTestTests */,
+				FD83A0F31B915CE4004C898D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD83A0F31B915CE4004C898D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A0F21B915CE4004C898D /* HJNotChatTest.app */,
+				FD83A10B1B915CE5004C898D /* HJNotChatTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD83A0F41B915CE4004C898D /* HJNotChatTest */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A11B1B915EBF004C898D /* Classes */,
+				FD83A1261B915EBF004C898D /* Resources */,
+				FD83A12C1B915EBF004C898D /* SupportingFiles */,
+			);
+			path = HJNotChatTest;
+			sourceTree = "<group>";
+		};
+		FD83A10E1B915CE5004C898D /* HJNotChatTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1111B915CE5004C898D /* HJNotChatTestTests.m */,
+				FD83A10F1B915CE5004C898D /* Supporting Files */,
+			);
+			path = HJNotChatTestTests;
+			sourceTree = "<group>";
+		};
+		FD83A10F1B915CE5004C898D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1101B915CE5004C898D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD83A11B1B915EBF004C898D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A11C1B915EBF004C898D /* AppDelegate */,
+				FD83A11F1B915EBF004C898D /* Controllers */,
+				FD83A1201B915EBF004C898D /* Globals */,
+				FD83A1211B915EBF004C898D /* Models */,
+				FD83A1221B915EBF004C898D /* Parsers */,
+				FD83A1231B915EBF004C898D /* Requests */,
+				FD83A1241B915EBF004C898D /* Utilities */,
+				FD83A1251B915EBF004C898D /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD83A11C1B915EBF004C898D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A11D1B915EBF004C898D /* AppDelegate.h */,
+				FD83A11E1B915EBF004C898D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FD83A11F1B915EBF004C898D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A13B1B916A74004C898D /* HJChatTableViewController.h */,
+				FD83A13C1B916A74004C898D /* HJChatTableViewController.m */,
+				FD83A1601B9294A7004C898D /* HJFavAppInfoViewController.h */,
+				FD83A1611B9294A7004C898D /* HJFavAppInfoViewController.m */,
+				FD3F06051B92F56E009B5172 /* HJAppDetailViewController.h */,
+				FD3F06061B92F56E009B5172 /* HJAppDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD83A1201B915EBF004C898D /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		FD83A1211B915EBF004C898D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1411B917370004C898D /* HJMessage.h */,
+				FD83A1421B917370004C898D /* HJMessage.m */,
+				FD83A14C1B917DD4004C898D /* HJUser.h */,
+				FD83A14D1B917DD4004C898D /* HJUser.m */,
+				FD83A1571B91DE40004C898D /* HJAppInfo.h */,
+				FD83A1581B91DE40004C898D /* HJAppInfo.m */,
+				FD83A1631B92A257004C898D /* HJAppImage.h */,
+				FD83A1641B92A257004C898D /* HJAppImage.m */,
+				FD83A13E1B916BC6004C898D /* HJChatCell.h */,
+				FD83A13F1B916BC6004C898D /* HJChatCell.m */,
+				FD83A1691B92C785004C898D /* HJAppInfoCell.h */,
+				FD83A16A1B92C785004C898D /* HJAppInfoCell.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD83A1221B915EBF004C898D /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A15D1B928DCC004C898D /* HJFavPaidAppRequestParser.h */,
+				FD83A15E1B928DCC004C898D /* HJFavPaidAppRequestParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		FD83A1231B915EBF004C898D /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A15A1B92899F004C898D /* HJFavPaidAppRequest.h */,
+				FD83A15B1B92899F004C898D /* HJFavPaidAppRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FD83A1241B915EBF004C898D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FD83A1251B915EBF004C898D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD83A1261B915EBF004C898D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1271B915EBF004C898D /* Images */,
+				FD83A1291B915EBF004C898D /* Xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD83A1271B915EBF004C898D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1381B91687F004C898D /* ImageRes */,
+				FD83A1281B915EBF004C898D /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FD83A1291B915EBF004C898D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A1361B915FD2004C898D /* Main.storyboard */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		FD83A12C1B915EBF004C898D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FD83A12D1B915EBF004C898D /* Info.plist */,
+				FD83A12E1B915EBF004C898D /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FD83A1381B91687F004C898D /* ImageRes */ = {
+			isa = PBXGroup;
+			children = (
+				FD3F06081B93E20B009B5172 /* bakgrd.png */,
+				FD83A1511B91AE49004C898D /* messageBackMe.png */,
+				FD83A14F1B919A0D004C898D /* messageBack.png */,
+				FD83A1481B9177FE004C898D /* master.png */,
+				FD83A1491B9177FE004C898D /* wukong.png */,
+				FD83A1391B91687F004C898D /* chat.png */,
+			);
+			path = ImageRes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD83A0F11B915CE4004C898D /* HJNotChatTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD83A1151B915CE5004C898D /* Build configuration list for PBXNativeTarget "HJNotChatTest" */;
+			buildPhases = (
+				FD83A0EE1B915CE4004C898D /* Sources */,
+				FD83A0EF1B915CE4004C898D /* Frameworks */,
+				FD83A0F01B915CE4004C898D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJNotChatTest;
+			productName = HJNotChatTest;
+			productReference = FD83A0F21B915CE4004C898D /* HJNotChatTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD83A10A1B915CE5004C898D /* HJNotChatTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD83A1181B915CE5004C898D /* Build configuration list for PBXNativeTarget "HJNotChatTestTests" */;
+			buildPhases = (
+				FD83A1071B915CE5004C898D /* Sources */,
+				FD83A1081B915CE5004C898D /* Frameworks */,
+				FD83A1091B915CE5004C898D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD83A10D1B915CE5004C898D /* PBXTargetDependency */,
+			);
+			name = HJNotChatTestTests;
+			productName = HJNotChatTestTests;
+			productReference = FD83A10B1B915CE5004C898D /* HJNotChatTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD83A0EA1B915CE4004C898D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Long;
+				TargetAttributes = {
+					FD83A0F11B915CE4004C898D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FD83A10A1B915CE5004C898D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FD83A0F11B915CE4004C898D;
+					};
+				};
+			};
+			buildConfigurationList = FD83A0ED1B915CE4004C898D /* Build configuration list for PBXProject "HJNotChatTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD83A0E91B915CE4004C898D;
+			productRefGroup = FD83A0F31B915CE4004C898D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD83A0F11B915CE4004C898D /* HJNotChatTest */,
+				FD83A10A1B915CE5004C898D /* HJNotChatTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD83A0F01B915CE4004C898D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3F06091B93E20B009B5172 /* bakgrd.png in Resources */,
+				FD83A1501B919A0D004C898D /* messageBack.png in Resources */,
+				FD83A1301B915EBF004C898D /* Images.xcassets in Resources */,
+				FD83A14B1B9177FE004C898D /* wukong.png in Resources */,
+				FD83A1371B915FD2004C898D /* Main.storyboard in Resources */,
+				FD83A14A1B9177FE004C898D /* master.png in Resources */,
+				FD83A13A1B91687F004C898D /* chat.png in Resources */,
+				FD83A1521B91AE49004C898D /* messageBackMe.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD83A1091B915CE5004C898D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD83A0EE1B915CE4004C898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83A1621B9294A7004C898D /* HJFavAppInfoViewController.m in Sources */,
+				FD83A1331B915EBF004C898D /* main.m in Sources */,
+				FD83A1401B916BC6004C898D /* HJChatCell.m in Sources */,
+				FD3F06071B92F56E009B5172 /* HJAppDetailViewController.m in Sources */,
+				FD83A13D1B916A74004C898D /* HJChatTableViewController.m in Sources */,
+				FD83A1431B917370004C898D /* HJMessage.m in Sources */,
+				FD83A16B1B92C785004C898D /* HJAppInfoCell.m in Sources */,
+				FD83A15F1B928DCC004C898D /* HJFavPaidAppRequestParser.m in Sources */,
+				FD83A14E1B917DD4004C898D /* HJUser.m in Sources */,
+				FD83A1651B92A257004C898D /* HJAppImage.m in Sources */,
+				FD83A1591B91DE40004C898D /* HJAppInfo.m in Sources */,
+				FD83A12F1B915EBF004C898D /* AppDelegate.m in Sources */,
+				FD83A15C1B92899F004C898D /* HJFavPaidAppRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD83A1071B915CE5004C898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83A1121B915CE5004C898D /* HJNotChatTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD83A10D1B915CE5004C898D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD83A0F11B915CE4004C898D /* HJNotChatTest */;
+			targetProxy = FD83A10C1B915CE5004C898D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD83A1131B915CE5004C898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD83A1141B915CE5004C898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD83A1161B915CE5004C898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HJNotChatTest/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD83A1171B915CE5004C898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HJNotChatTest/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD83A1191B915CE5004C898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HJNotChatTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJNotChatTest.app/HJNotChatTest";
+			};
+			name = Debug;
+		};
+		FD83A11A1B915CE5004C898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HJNotChatTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJNotChatTest.app/HJNotChatTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD83A0ED1B915CE4004C898D /* Build configuration list for PBXProject "HJNotChatTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD83A1131B915CE5004C898D /* Debug */,
+				FD83A1141B915CE5004C898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD83A1151B915CE5004C898D /* Build configuration list for PBXNativeTarget "HJNotChatTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD83A1161B915CE5004C898D /* Debug */,
+				FD83A1171B915CE5004C898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD83A1181B915CE5004C898D /* Build configuration list for PBXNativeTarget "HJNotChatTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD83A1191B915CE5004C898D /* Debug */,
+				FD83A11A1B915CE5004C898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD83A0EA1B915CE4004C898D /* Project object */;
+}
