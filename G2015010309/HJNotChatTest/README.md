@@ -1,6 +1,11 @@
 # HJNotChatTest
 GeekBand实践课作业
 
+#效果
+<img src="http://img.blog.csdn.net/20150831115223200" width="300"/>
+<img src="http://img.blog.csdn.net/20150831115241554" width="300"/>
+<img src="http://img.blog.csdn.net/20150831115300010" width="300" />
+
 ##《iOS 开发实战》测试题
 ###一、做一个类似微信的聊天的 tableview(tablewviewcell 自定义) 。只需要 显示文字内容和用户头像(不需要做输入部分,文字内容自己模拟)
 1 必须实现文字内容背景  
