@@ -14,6 +14,9 @@
 		5B50F6831B9ADB630014272A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B50F6821B9ADB630014272A /* Images.xcassets */; };
 		5B50F6861B9ADB630014272A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B50F6841B9ADB630014272A /* LaunchScreen.xib */; };
 		5B50F6921B9ADB630014272A /* Objective_C_HomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50F6911B9ADB630014272A /* Objective_C_HomeworkTests.m */; };
+		5B50F69D1B9ADF380014272A /* BLAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50F69C1B9ADF380014272A /* BLAnimal.m */; };
+		5B50F6A71B9B1CAC0014272A /* BLFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50F6A61B9B1CAC0014272A /* BLFish.m */; };
+		5B50F6AA1B9B1CE00014272A /* BLBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50F6A91B9B1CE00014272A /* BLBird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		5B50F68B1B9ADB630014272A /* Objective-C_HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C_HomeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B50F6901B9ADB630014272A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B50F6911B9ADB630014272A /* Objective_C_HomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_HomeworkTests.m; sourceTree = "<group>"; };
+		5B50F69B1B9ADF380014272A /* BLAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnimal.h; sourceTree = "<group>"; };
+		5B50F69C1B9ADF380014272A /* BLAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnimal.m; sourceTree = "<group>"; };
+		5B50F6A51B9B1CAC0014272A /* BLFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLFish.h; sourceTree = "<group>"; };
+		5B50F6A61B9B1CAC0014272A /* BLFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFish.m; sourceTree = "<group>"; };
+		5B50F6A81B9B1CE00014272A /* BLBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBird.h; sourceTree = "<group>"; };
+		5B50F6A91B9B1CE00014272A /* BLBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		5B50F6741B9ADB620014272A /* Objective-C_Homework */ = {
 			isa = PBXGroup;
 			children = (
+				5B50F69B1B9ADF380014272A /* BLAnimal.h */,
+				5B50F69C1B9ADF380014272A /* BLAnimal.m */,
+				5B50F6A51B9B1CAC0014272A /* BLFish.h */,
+				5B50F6A61B9B1CAC0014272A /* BLFish.m */,
+				5B50F6A81B9B1CE00014272A /* BLBird.h */,
+				5B50F6A91B9B1CE00014272A /* BLBird.m */,
 				5B50F6791B9ADB620014272A /* AppDelegate.h */,
 				5B50F67A1B9ADB620014272A /* AppDelegate.m */,
 				5B50F67C1B9ADB620014272A /* ViewController.h */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B50F67E1B9ADB620014272A /* ViewController.m in Sources */,
+				5B50F69D1B9ADF380014272A /* BLAnimal.m in Sources */,
 				5B50F67B1B9ADB620014272A /* AppDelegate.m in Sources */,
+				5B50F6A71B9B1CAC0014272A /* BLFish.m in Sources */,
+				5B50F6AA1B9B1CE00014272A /* BLBird.m in Sources */,
 				5B50F6781B9ADB620014272A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Objective-C_Homework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Objective-C_Homework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

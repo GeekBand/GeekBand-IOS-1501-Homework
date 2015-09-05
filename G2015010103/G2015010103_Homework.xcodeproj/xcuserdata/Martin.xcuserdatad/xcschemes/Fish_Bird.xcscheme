@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B50F6711B9ADB620014272A"
-               BuildableName = "Objective-C_Homework.app"
-               BlueprintName = "Objective-C_Homework"
-               ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+               BlueprintIdentifier = "3676E01A1B7AF13A00194FF4"
+               BuildableName = "Fish_Bird.app"
+               BlueprintName = "Fish_Bird"
+               ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B50F68A1B9ADB630014272A"
-               BuildableName = "Objective-C_HomeworkTests.xctest"
-               BlueprintName = "Objective-C_HomeworkTests"
-               ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+               BlueprintIdentifier = "3676E0331B7AF13A00194FF4"
+               BuildableName = "Fish_BirdTests.xctest"
+               BlueprintName = "Fish_BirdTests"
+               ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B50F68A1B9ADB630014272A"
-               BuildableName = "Objective-C_HomeworkTests.xctest"
-               BlueprintName = "Objective-C_HomeworkTests"
-               ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+               BlueprintIdentifier = "3676E0331B7AF13A00194FF4"
+               BuildableName = "Fish_BirdTests.xctest"
+               BlueprintName = "Fish_BirdTests"
+               ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B50F6711B9ADB620014272A"
-            BuildableName = "Objective-C_Homework.app"
-            BlueprintName = "Objective-C_Homework"
-            ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+            BlueprintIdentifier = "3676E01A1B7AF13A00194FF4"
+            BuildableName = "Fish_Bird.app"
+            BlueprintName = "Fish_Bird"
+            ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B50F6711B9ADB620014272A"
-            BuildableName = "Objective-C_Homework.app"
-            BlueprintName = "Objective-C_Homework"
-            ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+            BlueprintIdentifier = "3676E01A1B7AF13A00194FF4"
+            BuildableName = "Fish_Bird.app"
+            BlueprintName = "Fish_Bird"
+            ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B50F6711B9ADB620014272A"
-            BuildableName = "Objective-C_Homework.app"
-            BlueprintName = "Objective-C_Homework"
-            ReferencedContainer = "container:Objective-C_Homework.xcodeproj">
+            BlueprintIdentifier = "3676E01A1B7AF13A00194FF4"
+            BuildableName = "Fish_Bird.app"
+            BlueprintName = "Fish_Bird"
+            ReferencedContainer = "container:G2015010103_Homework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
