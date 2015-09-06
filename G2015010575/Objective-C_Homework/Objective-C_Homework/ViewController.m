@@ -49,12 +49,10 @@
         NSInteger index = arc4random()%[animalArray count];
         if ([[[animalArray objectAtIndex:index] class]isSubclassOfClass:[BLFish class]]) {
             i++;
-            [animalArray removeObjectAtIndex:index];
         }
+        [animalArray removeObjectAtIndex:index];
     }
     NSLog(@"随机捞到%lu条鱼",fishCount);
-    
-    //内存释放暂有问题，还在处理
     
     //打鸟
     NSLog(@"天上有%lu只鸟",[animalArray count]);
