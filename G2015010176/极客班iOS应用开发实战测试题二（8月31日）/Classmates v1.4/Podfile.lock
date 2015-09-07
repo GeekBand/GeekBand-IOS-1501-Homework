@@ -1,0 +1,10 @@
+PODS:
+  - Ruler (0.5)
+
+DEPENDENCIES:
+  - Ruler (~> 0.5)
+
+SPEC CHECKSUMS:
+  Ruler: bf01a372f064c900c089c78abd75c2685a86ecba
+
+COCOAPODS: 0.38.2
