@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB630BF1B9378630067A7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630BE1B9378630067A7D2 /* main.m */; };
+		BEB630C21B9378630067A7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630C11B9378630067A7D2 /* AppDelegate.m */; };
+		BEB630CD1B9378630067A7D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB630CB1B9378630067A7D2 /* LaunchScreen.xib */; };
+		BEB630D91B9378630067A7D2 /* ClassmatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630D81B9378630067A7D2 /* ClassmatesTests.m */; };
+		BEB630E31B93788F0067A7D2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB630E21B93788F0067A7D2 /* Realm.framework */; };
+		BEB630E51B93789E0067A7D2 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB630E41B93789E0067A7D2 /* libc++.dylib */; };
+		BEB630F21B9378E10067A7D2 /* GWClassmate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630E91B9378E10067A7D2 /* GWClassmate.m */; };
+		BEB630F31B9378E10067A7D2 /* GWCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630EB1B9378E10067A7D2 /* GWCustomTableViewCell.m */; };
+		BEB630F41B9378E10067A7D2 /* GWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630ED1B9378E10067A7D2 /* GWDetailViewController.m */; };
+		BEB630F51B9378E10067A7D2 /* GWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630EF1B9378E10067A7D2 /* GWHomeTableViewController.m */; };
+		BEB630F61B9378E10067A7D2 /* GWShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB630F11B9378E10067A7D2 /* GWShowDetailViewController.m */; };
+		BEB630F81B9378FC0067A7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB630F71B9378FC0067A7D2 /* Main.storyboard */; };
+		BEB630FA1B93791C0067A7D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB630F91B93791C0067A7D2 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEB630D31B9378630067A7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB630B11B9378630067A7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB630B81B9378630067A7D2;
+			remoteInfo = Classmates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEB630B91B9378630067A7D2 /* Classmates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classmates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB630BD1B9378630067A7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB630BE1B9378630067A7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEB630C01B9378630067A7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEB630C11B9378630067A7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEB630CC1B9378630067A7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEB630D21B9378630067A7D2 /* ClassmatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB630D71B9378630067A7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB630D81B9378630067A7D2 /* ClassmatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassmatesTests.m; sourceTree = "<group>"; };
+		BEB630E21B93788F0067A7D2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		BEB630E41B93789E0067A7D2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		BEB630E81B9378E10067A7D2 /* GWClassmate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWClassmate.h; sourceTree = "<group>"; };
+		BEB630E91B9378E10067A7D2 /* GWClassmate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWClassmate.m; sourceTree = "<group>"; };
+		BEB630EA1B9378E10067A7D2 /* GWCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWCustomTableViewCell.h; sourceTree = "<group>"; };
+		BEB630EB1B9378E10067A7D2 /* GWCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWCustomTableViewCell.m; sourceTree = "<group>"; };
+		BEB630EC1B9378E10067A7D2 /* GWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWDetailViewController.h; sourceTree = "<group>"; };
+		BEB630ED1B9378E10067A7D2 /* GWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWDetailViewController.m; sourceTree = "<group>"; };
+		BEB630EE1B9378E10067A7D2 /* GWHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWHomeTableViewController.h; sourceTree = "<group>"; };
+		BEB630EF1B9378E10067A7D2 /* GWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWHomeTableViewController.m; sourceTree = "<group>"; };
+		BEB630F01B9378E10067A7D2 /* GWShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWShowDetailViewController.h; sourceTree = "<group>"; };
+		BEB630F11B9378E10067A7D2 /* GWShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWShowDetailViewController.m; sourceTree = "<group>"; };
+		BEB630F71B9378FC0067A7D2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BEB630F91B93791C0067A7D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB630B61B9378630067A7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB630E51B93789E0067A7D2 /* libc++.dylib in Frameworks */,
+				BEB630E31B93788F0067A7D2 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB630CF1B9378630067A7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB630B01B9378630067A7D2 = {
+			isa = PBXGroup;
+			children = (
+				BEB630BB1B9378630067A7D2 /* Classmates */,
+				BEB630D51B9378630067A7D2 /* ClassmatesTests */,
+				BEB630E61B9378A80067A7D2 /* Frameworks */,
+				BEB630BA1B9378630067A7D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB630BA1B9378630067A7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630B91B9378630067A7D2 /* Classmates.app */,
+				BEB630D21B9378630067A7D2 /* ClassmatesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB630BB1B9378630067A7D2 /* Classmates */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630FB1B937A220067A7D2 /* Models */,
+				BEB630FC1B937A350067A7D2 /* Views */,
+				BEB630FD1B937A3E0067A7D2 /* Controllers */,
+				BEB630BC1B9378630067A7D2 /* Supporting Files */,
+			);
+			path = Classmates;
+			sourceTree = "<group>";
+		};
+		BEB630BC1B9378630067A7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630C01B9378630067A7D2 /* AppDelegate.h */,
+				BEB630C11B9378630067A7D2 /* AppDelegate.m */,
+				BEB630F91B93791C0067A7D2 /* Images.xcassets */,
+				BEB630BD1B9378630067A7D2 /* Info.plist */,
+				BEB630BE1B9378630067A7D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEB630D51B9378630067A7D2 /* ClassmatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630D81B9378630067A7D2 /* ClassmatesTests.m */,
+				BEB630D61B9378630067A7D2 /* Supporting Files */,
+			);
+			path = ClassmatesTests;
+			sourceTree = "<group>";
+		};
+		BEB630D61B9378630067A7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630D71B9378630067A7D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEB630E61B9378A80067A7D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630E41B93789E0067A7D2 /* libc++.dylib */,
+				BEB630E21B93788F0067A7D2 /* Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEB630FB1B937A220067A7D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630E81B9378E10067A7D2 /* GWClassmate.h */,
+				BEB630E91B9378E10067A7D2 /* GWClassmate.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BEB630FC1B937A350067A7D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630CB1B9378630067A7D2 /* LaunchScreen.xib */,
+				BEB630F71B9378FC0067A7D2 /* Main.storyboard */,
+				BEB630EA1B9378E10067A7D2 /* GWCustomTableViewCell.h */,
+				BEB630EB1B9378E10067A7D2 /* GWCustomTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEB630FD1B937A3E0067A7D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEB630EE1B9378E10067A7D2 /* GWHomeTableViewController.h */,
+				BEB630EF1B9378E10067A7D2 /* GWHomeTableViewController.m */,
+				BEB630EC1B9378E10067A7D2 /* GWDetailViewController.h */,
+				BEB630ED1B9378E10067A7D2 /* GWDetailViewController.m */,
+				BEB630F01B9378E10067A7D2 /* GWShowDetailViewController.h */,
+				BEB630F11B9378E10067A7D2 /* GWShowDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB630B81B9378630067A7D2 /* Classmates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB630DC1B9378630067A7D2 /* Build configuration list for PBXNativeTarget "Classmates" */;
+			buildPhases = (
+				BEB630B51B9378630067A7D2 /* Sources */,
+				BEB630B61B9378630067A7D2 /* Frameworks */,
+				BEB630B71B9378630067A7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Classmates;
+			productName = Classmates;
+			productReference = BEB630B91B9378630067A7D2 /* Classmates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEB630D11B9378630067A7D2 /* ClassmatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB630DF1B9378630067A7D2 /* Build configuration list for PBXNativeTarget "ClassmatesTests" */;
+			buildPhases = (
+				BEB630CE1B9378630067A7D2 /* Sources */,
+				BEB630CF1B9378630067A7D2 /* Frameworks */,
+				BEB630D01B9378630067A7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB630D41B9378630067A7D2 /* PBXTargetDependency */,
+			);
+			name = ClassmatesTests;
+			productName = ClassmatesTests;
+			productReference = BEB630D21B9378630067A7D2 /* ClassmatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB630B11B9378630067A7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GW;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = gewill.org;
+				TargetAttributes = {
+					BEB630B81B9378630067A7D2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BEB630D11B9378630067A7D2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BEB630B81B9378630067A7D2;
+					};
+				};
+			};
+			buildConfigurationList = BEB630B41B9378630067A7D2 /* Build configuration list for PBXProject "Classmates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB630B01B9378630067A7D2;
+			productRefGroup = BEB630BA1B9378630067A7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB630B81B9378630067A7D2 /* Classmates */,
+				BEB630D11B9378630067A7D2 /* ClassmatesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB630B71B9378630067A7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB630FA1B93791C0067A7D2 /* Images.xcassets in Resources */,
+				BEB630F81B9378FC0067A7D2 /* Main.storyboard in Resources */,
+				BEB630CD1B9378630067A7D2 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB630D01B9378630067A7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB630B51B9378630067A7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB630F21B9378E10067A7D2 /* GWClassmate.m in Sources */,
+				BEB630C21B9378630067A7D2 /* AppDelegate.m in Sources */,
+				BEB630F51B9378E10067A7D2 /* GWHomeTableViewController.m in Sources */,
+				BEB630F31B9378E10067A7D2 /* GWCustomTableViewCell.m in Sources */,
+				BEB630F61B9378E10067A7D2 /* GWShowDetailViewController.m in Sources */,
+				BEB630F41B9378E10067A7D2 /* GWDetailViewController.m in Sources */,
+				BEB630BF1B9378630067A7D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB630CE1B9378630067A7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB630D91B9378630067A7D2 /* ClassmatesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB630D41B9378630067A7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB630B81B9378630067A7D2 /* Classmates */;
+			targetProxy = BEB630D31B9378630067A7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEB630CB1B9378630067A7D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB630CC1B9378630067A7D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB630DA1B9378630067A7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB630DB1B9378630067A7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB630DD1B9378630067A7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Classmates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEB630DE1B9378630067A7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Classmates/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEB630E01B9378630067A7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClassmatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classmates.app/Classmates";
+			};
+			name = Debug;
+		};
+		BEB630E11B9378630067A7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClassmatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classmates.app/Classmates";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB630B41B9378630067A7D2 /* Build configuration list for PBXProject "Classmates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB630DA1B9378630067A7D2 /* Debug */,
+				BEB630DB1B9378630067A7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB630DC1B9378630067A7D2 /* Build configuration list for PBXNativeTarget "Classmates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB630DD1B9378630067A7D2 /* Debug */,
+				BEB630DE1B9378630067A7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB630DF1B9378630067A7D2 /* Build configuration list for PBXNativeTarget "ClassmatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB630E01B9378630067A7D2 /* Debug */,
+				BEB630E11B9378630067A7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB630B11B9378630067A7D2 /* Project object */;
+}

@@ -1,0 +1,2 @@
+1,2题写在了Animal类和Fish类和Bird类中
+3,4题写在了ViewController的viewDidLoad方法里
