@@ -1,9 +1,12 @@
 
+
 极客班iOS应用开发实战测试题二（8月31日）
 
 习题：同学录
 
->项目源码见 [GitHub](https://github.com/gewill/GeekBand-IOS-1501-Homework/tree/new-branch/G2015010176/%E6%9E%81%E5%AE%A2%E7%8F%ADiOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%B5%8B%E8%AF%95%E9%A2%98%E4%BA%8C%EF%BC%888%E6%9C%8831%E6%97%A5%EF%BC%89)
+>项目源码见 [GitHub](https://github.com/gewill/GeekBand-IOS-1501-Homework/tree/new-branch/G2015010176/%E6%9E%81%E5%AE%A2%E7%8F%ADiOS%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E6%B5%8B%E8%AF%95%E9%A2%98%E4%BA%8C%EF%BC%888%E6%9C%8831%E6%97%A5%EF%BC%89)。
+>
+>v1.5以后使用 CocoaPods，`.gitignore`包含`/pod`，下载后请 `pod install`。
 
 ## 1. 题目要求：
 
@@ -54,6 +57,7 @@
 	
 - "To use AVAsset to extract metadata informations, this post is useful." [http://stackoverflow.com/questions/16318821/extracting-mp3-album-artwork-in-ios](http://stackoverflow.com/questions/16318821/extracting-mp3-album-artwork-in-ios)
 - [Playing video in iOS](http://jacopretorius.net/2013/02/playing-video-in-ios.html)
+- Use Clang-Format -> LLVM (default)
 
 ## 3. 项目完成情况：
 
