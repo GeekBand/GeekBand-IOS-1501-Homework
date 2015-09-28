@@ -16,7 +16,6 @@
 		D71574B1503F9FDC2DE0BC9F /* BLApp.m in Sources */ = {isa = PBXBuildFile; fileRef = D71579FE93EDBC949D658E26 /* BLApp.m */; };
 		D715768653FEBECB462EF33E /* BLAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = D7157A1578D872F0AE6863D2 /* BLAnimal.m */; };
 		D7157887C4952459637CD1A5 /* BLFish.m in Sources */ = {isa = PBXBuildFile; fileRef = D7157F8CF95154BCECFD4429 /* BLFish.m */; };
-		D7157C9EE04FFE4D1A4D66D4 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D71571CA62F8854A1A9C8AF5 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		243AB6061B76A47B003AC0DD /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
 		243AB6071B76A47B003AC0DD /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 		D71571389A2C882550565F58 /* BLBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBird.h; sourceTree = "<group>"; };
-		D71571CA62F8854A1A9C8AF5 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = Readme.md; sourceTree = "<group>"; };
 		D71572E4340958E03BC24161 /* BLApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLApp.h; sourceTree = "<group>"; };
 		D71579FE93EDBC949D658E26 /* BLApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLApp.m; sourceTree = "<group>"; };
 		D7157A1578D872F0AE6863D2 /* BLAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnimal.m; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				D7157F8CF95154BCECFD4429 /* BLFish.m */,
 				243AB6061B76A47B003AC0DD /* UIColor+RandomColor.h */,
 				243AB6071B76A47B003AC0DD /* UIColor+RandomColor.m */,
-				D71571CA62F8854A1A9C8AF5 /* Readme.md */,
 			);
 			path = BLOCExam;
 			sourceTree = "<group>";
@@ -160,7 +157,6 @@
 			files = (
 				243AB5ED1B7688FF003AC0DD /* LaunchScreen.xib in Resources */,
 				243AB5EA1B7688FF003AC0DD /* Images.xcassets in Resources */,
-				D7157C9EE04FFE4D1A4D66D4 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

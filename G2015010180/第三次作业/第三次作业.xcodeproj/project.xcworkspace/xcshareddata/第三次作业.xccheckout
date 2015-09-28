@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>344F5985-A4AF-486A-8458-6BABC1384689</string>
+	<key>IDESourceControlProjectName</key>
+	<string>第三次作业</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>https://github.com/chenmingjia/GeekBand-IOS-1501-Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>G2015010180/第三次作业/第三次作业.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6580FBACFB66DD747496FB590A5D40D77362917</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chenmingjia/GeekBand-IOS-1501-Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6580FBACFB66DD747496FB590A5D40D77362917</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GeekBand-IOS-1501-Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>

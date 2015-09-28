@@ -9,17 +9,19 @@
 #import <Foundation/Foundation.h>
 
 typedef enum {
-    male,
+    male = 1,
     female
 } Sex;
 
 @interface WZAnimal : NSObject
 
-@property (assign, nonatomic) Sex sex;
+@property (nonatomic) Sex sex;
+
+@property (assign, nonatomic) NSString *gender;
 @property (copy, nonatomic) NSString *name;
 @property (assign, nonatomic)NSInteger weight;
 
 - (void)animalSpeak;
-- (instancetype)initWithName:(NSString *)aName Sex:(Sex)aSex weight:(NSInteger)aWeight;
+- (instancetype)initWithName:(NSString *)aName sexToGender:(Sex)aSex weight:(NSInteger)aWeight;
 
 @end
