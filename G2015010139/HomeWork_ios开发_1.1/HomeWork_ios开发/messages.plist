@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ismine</key>
+		<false/>
+		<key>msg</key>
+		<string>做作业了吗？</string>
+	</dict>
+	<dict>
+		<key>ismine</key>
+		<true/>
+		<key>msg</key>
+		<string>没啊，好难！</string>
+	</dict>
+	<dict>
+		<key>ismine</key>
+		<false/>
+		<key>msg</key>
+		<string>这都不是事，我帮你！别看平时我老欺负你，哥们我还是靠谱的，只要你一句话。</string>
+	</dict>
+	<dict>
+		<key>ismine</key>
+		<true/>
+		<key>msg</key>
+		<string>真的假的，好感动...</string>
+	</dict>
+	<dict>
+		<key>ismine</key>
+		<false/>
+		<key>msg</key>
+		<string>那能假的吗，今晚饭你包了！</string>
+	</dict>
+	<dict>
+		<key>ismine</key>
+		<true/>
+		<key>msg</key>
+		<string>.......</string>
+	</dict>
+</array>
+</plist>
