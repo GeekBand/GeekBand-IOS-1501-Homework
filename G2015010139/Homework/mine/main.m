@@ -63,6 +63,8 @@ int main(int argc, char * argv[]) {
             NSLog(@"Sorry, there's no fish or bird to catch!!!\n");
         }
         NSLog(@"You've catch %i fish(es) and %i bird(s)!\n", numberOfFishesCatched, numberOfBirdsCatched);
+
+        NSLog(@"%lu", (unsigned long)[@"一" length]);
         //return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
     

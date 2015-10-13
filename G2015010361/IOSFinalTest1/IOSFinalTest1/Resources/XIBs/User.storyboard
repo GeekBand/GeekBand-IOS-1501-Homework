@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Info View Controller-->
+        <scene sceneID="hS7-qa-LaT">
+            <objects>
+                <viewController storyboardIdentifier="BLUserInfoViewController" id="Fyk-41-MjH" customClass="BLUserInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FhL-Vd-G5H"/>
+                        <viewControllerLayoutGuide type="bottom" id="zy0-JP-nwD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="StV-zW-H9T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1w-pI-gHA">
+                                <rect key="frame" x="33" y="8" width="255" height="124"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FL3-xE-Lk2">
+                                <rect key="frame" x="85" y="154" width="150" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVp-84-ACP">
+                                <rect key="frame" x="122" y="175" width="76" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HMg-7E-o68"/>
+                                </constraints>
+                                <state key="normal" title="下载头像">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="用户信息" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44C-zu-paV">
+                                <rect key="frame" x="16" y="233" width="282" height="251"/>
+                                <color key="backgroundColor" red="1" green="0.40600341899999998" blue="0.86807873410000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="fER-oP-d6T">
+                                <rect key="frame" x="147" y="60" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fER-oP-d6T" secondAttribute="height" multiplier="1:1" id="Xeh-tc-Z9O"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZVp-84-ACP" firstAttribute="leading" secondItem="StV-zW-H9T" secondAttribute="leadingMargin" constant="106" id="09s-Qs-YhD"/>
+                            <constraint firstItem="zy0-JP-nwD" firstAttribute="top" secondItem="44C-zu-paV" secondAttribute="bottom" constant="20" id="HAJ-vT-3iE"/>
+                            <constraint firstItem="ZVp-84-ACP" firstAttribute="top" secondItem="FL3-xE-Lk2" secondAttribute="bottom" constant="19" id="L1y-vI-tpw"/>
+                            <constraint firstItem="44C-zu-paV" firstAttribute="top" secondItem="ZVp-84-ACP" secondAttribute="bottom" constant="28" id="NLu-nL-yZ8"/>
+                            <constraint firstItem="C1w-pI-gHA" firstAttribute="top" secondItem="FhL-Vd-G5H" secondAttribute="bottom" constant="8" id="VA1-D5-IlQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZVp-84-ACP" secondAttribute="trailing" constant="106" id="Wce-rP-IIG"/>
+                            <constraint firstItem="FL3-xE-Lk2" firstAttribute="top" secondItem="C1w-pI-gHA" secondAttribute="bottom" constant="22" id="vUG-43-Wgy"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="activityView" destination="fER-oP-d6T" id="3aU-a2-BXa"/>
+                        <outlet property="downLoadButton" destination="ZVp-84-ACP" id="J8o-x1-FLd"/>
+                        <outlet property="headImage" destination="C1w-pI-gHA" id="dZF-I8-o1V"/>
+                        <outlet property="progressView" destination="FL3-xE-Lk2" id="O5q-V5-HuC"/>
+                        <outlet property="userInfo" destination="44C-zu-paV" id="ID4-er-aIj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jmH-3d-1ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="679"/>
+        </scene>
+    </scenes>
+</document>
