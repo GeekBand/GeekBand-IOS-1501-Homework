@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+
+pod 'AMap3DMap', '~> 3.1.0.1'
+pod 'AMapSearch', '~> 3.0.0'
+pod 'AFNetworking', '~> 2.6.1'
+
