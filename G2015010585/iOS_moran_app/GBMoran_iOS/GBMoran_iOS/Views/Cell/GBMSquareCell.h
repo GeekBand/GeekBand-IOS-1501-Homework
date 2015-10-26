@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *locationLabel;
 @property (nonatomic, strong) NSArray *dataArr;
 
-//@property (nonatomic, strong) NSString *pic_url;
-//@property (nonatomic, strong) NSString *pic_id;
+@property (nonatomic, strong) NSString *pic_url;
+@property (nonatomic, strong) NSString *pic_id;
 
 @end

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GBMViewDetailViewController : UIViewController
+@interface GBMViewDetailViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UIImageView *photoImage;
+@property (copy, nonatomic) NSString *pic_id;
+@property (copy, nonatomic) NSString *pic_url;
+@property (strong,nonatomic) NSArray *commentArr;
+           
 @end

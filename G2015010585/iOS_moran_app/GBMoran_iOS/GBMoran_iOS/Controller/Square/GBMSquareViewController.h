@@ -16,5 +16,6 @@
 @property (nonatomic, strong) NSString *pic_id;
 @property (nonatomic, strong) NSMutableDictionary *locationDic;
 
+- (void)toCheckPicture;
 
 @end

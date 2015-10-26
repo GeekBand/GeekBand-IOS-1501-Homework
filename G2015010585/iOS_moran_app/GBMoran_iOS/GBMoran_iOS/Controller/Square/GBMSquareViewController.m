@@ -19,7 +19,6 @@
 #import "GBMSquareModel.h"
 #import "GBMViewDetailViewController.h"
 #import "UIImageView+WebCache.h"
-#define VCFromSB(SB,ID) [[UIStoryboard storyboardWithName:SB bundle:nil] instantiateViewControllerWithIdentifier:ID]
 #define MJRandomData [NSString stringWithFormat:@"随机数据---%d", arc4random_uniform(1000000)]
 @interface GBMSquareViewController ()<UITableViewDelegate, UITableViewDataSource, GBMSquareRequestDelegate,CLLocationManagerDelegate>
 @property (nonatomic, strong) NSArray *scrollArray;
@@ -167,5 +166,24 @@
 {
     
 }
+
+#pragma mark - toCheckPicture
+- (void)toCheckPicture
+{
+    GBMViewDetailViewController *detailVC = [[UIStoryboard storyboardWithName:@"GBMViewDetail" bundle:nil] instantiateViewControllerWithIdentifier:@"detailVC"];
+    [detailVC.photoImage sd_setImageWithURL:[NSURL URLWithString:_pic_url]];
+    detailVC.pic_id=_pic_id;
+    detailVC.pic_url =_pic_url;
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+
+
+
+
+
+
+
+
+
 
 @end

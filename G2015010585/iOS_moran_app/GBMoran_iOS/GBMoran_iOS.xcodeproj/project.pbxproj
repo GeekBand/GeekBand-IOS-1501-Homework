@@ -54,6 +54,12 @@
 		78600EDC1BDCC71B006E6653 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600ED31BDCC71B006E6653 /* UIView+WebCacheOperation.m */; };
 		78600EDF1BDCCC67006E6653 /* GBMSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EDE1BDCCC67006E6653 /* GBMSquareCell.m */; };
 		78600EE21BDCCE08006E6653 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EE11BDCCE08006E6653 /* NSData+ImageContentType.m */; };
+		78600EE41BDD0504006E6653 /* GBMViewDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78600EE31BDD0504006E6653 /* GBMViewDetail.storyboard */; };
+		78600EE81BDD0871006E6653 /* GBMViewDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EE71BDD0871006E6653 /* GBMViewDetailRequest.m */; };
+		78600EEB1BDD0982006E6653 /* GBMViewDetailParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EEA1BDD0982006E6653 /* GBMViewDetailParser.m */; };
+		78600EEF1BDD0A83006E6653 /* GBMViewDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EEE1BDD0A83006E6653 /* GBMViewDetailModel.m */; };
+		78600EF21BDD0BC0006E6653 /* UIColor+AddColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EF11BDD0BC0006E6653 /* UIColor+AddColor.m */; };
+		78600EF51BDD0C05006E6653 /* GBMCommentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78600EF41BDD0C05006E6653 /* GBMCommentListCell.m */; };
 		789158391BD20DC500FB43C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789158381BD20DC500FB43C1 /* main.m */; };
 		789158441BD20DC500FB43C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789158431BD20DC500FB43C1 /* Images.xcassets */; };
 		789158471BD20DC500FB43C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 789158451BD20DC500FB43C1 /* LaunchScreen.xib */; };
@@ -183,6 +189,17 @@
 		78600EDE1BDCCC67006E6653 /* GBMSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMSquareCell.m; sourceTree = "<group>"; };
 		78600EE01BDCCE08006E6653 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		78600EE11BDCCE08006E6653 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		78600EE31BDD0504006E6653 /* GBMViewDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GBMViewDetail.storyboard; sourceTree = "<group>"; };
+		78600EE61BDD0871006E6653 /* GBMViewDetailRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMViewDetailRequest.h; sourceTree = "<group>"; };
+		78600EE71BDD0871006E6653 /* GBMViewDetailRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMViewDetailRequest.m; sourceTree = "<group>"; };
+		78600EE91BDD0982006E6653 /* GBMViewDetailParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMViewDetailParser.h; sourceTree = "<group>"; };
+		78600EEA1BDD0982006E6653 /* GBMViewDetailParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMViewDetailParser.m; sourceTree = "<group>"; };
+		78600EED1BDD0A83006E6653 /* GBMViewDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMViewDetailModel.h; sourceTree = "<group>"; };
+		78600EEE1BDD0A83006E6653 /* GBMViewDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMViewDetailModel.m; sourceTree = "<group>"; };
+		78600EF01BDD0BC0006E6653 /* UIColor+AddColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AddColor.h"; sourceTree = "<group>"; };
+		78600EF11BDD0BC0006E6653 /* UIColor+AddColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AddColor.m"; sourceTree = "<group>"; };
+		78600EF31BDD0C05006E6653 /* GBMCommentListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMCommentListCell.h; sourceTree = "<group>"; };
+		78600EF41BDD0C05006E6653 /* GBMCommentListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMCommentListCell.m; sourceTree = "<group>"; };
 		789158331BD20DC500FB43C1 /* GBMoran_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBMoran_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789158371BD20DC500FB43C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789158381BD20DC500FB43C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -255,6 +272,8 @@
 		78600E461BDCB3FD006E6653 /* ViewDetail */ = {
 			isa = PBXGroup;
 			children = (
+				78600EF01BDD0BC0006E6653 /* UIColor+AddColor.h */,
+				78600EF11BDD0BC0006E6653 /* UIColor+AddColor.m */,
 				78600E471BDCB443006E6653 /* GBMViewDetailViewController.h */,
 				78600E481BDCB443006E6653 /* GBMViewDetailViewController.m */,
 			);
@@ -283,6 +302,7 @@
 		78600E5F1BDCBCF8006E6653 /* Square */ = {
 			isa = PBXGroup;
 			children = (
+				78600EEC1BDD0A5D006E6653 /* ViewDetail */,
 				78600E601BDCBCF8006E6653 /* Publish */,
 				78600E651BDCBDDB006E6653 /* GBMSquareModel.h */,
 				78600E661BDCBDDB006E6653 /* GBMSquareModel.m */,
@@ -397,6 +417,24 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		78600EE51BDD0845006E6653 /* ViewDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78600EE61BDD0871006E6653 /* GBMViewDetailRequest.h */,
+				78600EE71BDD0871006E6653 /* GBMViewDetailRequest.m */,
+			);
+			path = ViewDetail;
+			sourceTree = "<group>";
+		};
+		78600EEC1BDD0A5D006E6653 /* ViewDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78600EED1BDD0A83006E6653 /* GBMViewDetailModel.h */,
+				78600EEE1BDD0A83006E6653 /* GBMViewDetailModel.m */,
+			);
+			path = ViewDetail;
+			sourceTree = "<group>";
+		};
 		7891582A1BD20DC500FB43C1 = {
 			isa = PBXGroup;
 			children = (
@@ -493,6 +531,7 @@
 		78E7DA6C1BDB7A6500484726 /* Square */ = {
 			isa = PBXGroup;
 			children = (
+				78600EE51BDD0845006E6653 /* ViewDetail */,
 				78600E531BDCBB4E006E6653 /* GBMSquareRequest.h */,
 				78600E541BDCBB4E006E6653 /* GBMSquareRequest.m */,
 			);
@@ -601,6 +640,8 @@
 				78600E4E1BDCB51A006E6653 /* GBMSquareCollectionCell.m */,
 				78600EDD1BDCCC67006E6653 /* GBMSquareCell.h */,
 				78600EDE1BDCCC67006E6653 /* GBMSquareCell.m */,
+				78600EF31BDD0C05006E6653 /* GBMCommentListCell.h */,
+				78600EF41BDD0C05006E6653 /* GBMCommentListCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -612,6 +653,7 @@
 				78ECB8AD1BD27C670015B84E /* Register.storyboard */,
 				78C8C7A81BD3D34E00382474 /* GBMMy.storyboard */,
 				78600E431BDCAF24006E6653 /* GBMSquare.storyboard */,
+				78600EE31BDD0504006E6653 /* GBMViewDetail.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -635,6 +677,8 @@
 				7813F5E71BD3C02300F6FEB3 /* GBMRegisterRequestParser.m */,
 				78600E6B1BDCBF4E006E6653 /* GBMSquareRequestParser.h */,
 				78600E6C1BDCBF4E006E6653 /* GBMSquareRequestParser.m */,
+				78600EE91BDD0982006E6653 /* GBMViewDetailParser.h */,
+				78600EEA1BDD0982006E6653 /* GBMViewDetailParser.m */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -744,6 +788,7 @@
 				78ECB8931BD212B00015B84E /* main.xcassets in Resources */,
 				78ECB8951BD216AC0015B84E /* LoginAndRegister.storyboard in Resources */,
 				78ECB8AE1BD27C670015B84E /* Register.storyboard in Resources */,
+				78600EE41BDD0504006E6653 /* GBMViewDetail.storyboard in Resources */,
 				78C8C7A91BD3D34E00382474 /* GBMMy.storyboard in Resources */,
 				78600EA91BDCC64F006E6653 /* MJRefresh.bundle in Resources */,
 				78600E441BDCAF24006E6653 /* GBMSquare.storyboard in Resources */,
@@ -768,10 +813,12 @@
 				78600E521BDCB6C0006E6653 /* GBMSquareViewController.m in Sources */,
 				78600EAE1BDCC64F006E6653 /* MJRefreshBackFooter.m in Sources */,
 				78600EB01BDCC64F006E6653 /* MJRefreshBackNormalFooter.m in Sources */,
+				78600EF51BDD0C05006E6653 /* GBMCommentListCell.m in Sources */,
 				78600EDA1BDCC71B006E6653 /* UIScrollView+MJRefresh.m in Sources */,
 				78600EAD1BDCC64F006E6653 /* MJRefreshAutoStateFooter.m in Sources */,
 				78600ED71BDCC71B006E6653 /* UIImageView+HighlightedWebCache.m in Sources */,
 				78D17B9B1BD92A7C005B98FD /* GBMHeadImageViewController.m in Sources */,
+				78600EE81BDD0871006E6653 /* GBMViewDetailRequest.m in Sources */,
 				78E7DA711BDB7ABB00484726 /* GBMGetImage.m in Sources */,
 				78600E4F1BDCB51A006E6653 /* GBMSquareCollectionCell.m in Sources */,
 				78600EE21BDCCE08006E6653 /* NSData+ImageContentType.m in Sources */,
@@ -788,6 +835,7 @@
 				78E7DA6D1BDB7A6500484726 /* GBMLoginRequest.m in Sources */,
 				78600ED91BDCC71B006E6653 /* UIScrollView+MJExtension.m in Sources */,
 				78600EBB1BDCC64F006E6653 /* SDWebImageDecoder.m in Sources */,
+				78600EEF1BDD0A83006E6653 /* GBMViewDetailModel.m in Sources */,
 				78600EB81BDCC64F006E6653 /* MJRefreshStateHeader.m in Sources */,
 				78C8C7AC1BD3D7D300382474 /* GBMMyViewController.m in Sources */,
 				78600EBC1BDCC64F006E6653 /* SDWebImageDownloader.m in Sources */,
@@ -814,6 +862,7 @@
 				78ECB8911BD2101C0015B84E /* AppDelegate.m in Sources */,
 				78600EB51BDCC64F006E6653 /* MJRefreshGifHeader.m in Sources */,
 				78E7DA7A1BDB8F9000484726 /* GBMHomePageViewController.m in Sources */,
+				78600EEB1BDD0982006E6653 /* GBMViewDetailParser.m in Sources */,
 				78E7DA771BDB875B00484726 /* GBMReImageRequest.m in Sources */,
 				78ECB8A51BD243340015B84E /* BLMultipartForm.m in Sources */,
 				78600EBD1BDCC64F006E6653 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -822,6 +871,7 @@
 				78600ED81BDCC71B006E6653 /* UIImageView+WebCache.m in Sources */,
 				78600EB21BDCC64F006E6653 /* MJRefreshComponent.m in Sources */,
 				78600EAA1BDCC64F006E6653 /* MJRefreshAutoFooter.m in Sources */,
+				78600EF21BDD0BC0006E6653 /* UIColor+AddColor.m in Sources */,
 				78600EDC1BDCC71B006E6653 /* UIView+WebCacheOperation.m in Sources */,
 				78600EA81BDCC64F006E6653 /* KxMenu.m in Sources */,
 			);
