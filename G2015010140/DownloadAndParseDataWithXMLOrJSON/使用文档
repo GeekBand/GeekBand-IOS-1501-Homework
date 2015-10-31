@@ -1,0 +1,3 @@
+该项目中制作了两种parser，默认使用了JSON的parser
+
+要转换成XML的parser，只需要在JSONOrXMLControlMacro.h中注释掉#define JSON..
